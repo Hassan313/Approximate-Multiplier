@@ -1,0 +1,103 @@
+ 
+****************************************
+Report : power
+        -cell
+        -analysis_effort low
+        -sort_mode cell_internal_power
+Design : CSA_Mult_8bits
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 19:06:45 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      h  -  Hierarchical cell
+
+                        Cell      Driven Net  Tot Dynamic      Cell
+                        Internal  Switching   Power            Leakage
+Cell                    Power     Power       (% Cell/Tot)     Power      Attrs
+--------------------------------------------------------------------------------
+U58                     4.333e-04       N/A        N/A (N/A)     70.9107  h
+U60                     4.258e-04       N/A        N/A (N/A)     78.1078  h
+U75                     4.218e-04 1.552e-04   5.77e-04 (73%)     27.9509   
+U59                     4.205e-04       N/A        N/A (N/A)     78.1129  h
+U79                     3.954e-04    0.0000   3.95e-04 (100%)    27.5166   
+U61                     3.728e-04       N/A        N/A (N/A)     70.4456  h
+U52                     3.343e-04       N/A        N/A (N/A)     77.6853  h
+U53                     3.314e-04       N/A        N/A (N/A)     77.7590  h
+U57                     3.308e-04       N/A        N/A (N/A)     50.8814  h
+U77                     3.297e-04    0.0000   3.30e-04 (100%)    22.7525   
+U73                     3.250e-04 1.288e-04   4.54e-04 (72%)     26.9727   
+U51                     3.186e-04       N/A        N/A (N/A)     77.7941  h
+U49                     2.974e-04 9.048e-05   3.88e-04 (77%)     19.0550   
+U70                     2.635e-04    0.0000   2.64e-04 (100%)    22.7738   
+U32                     2.619e-04 3.115e-04   5.73e-04 (46%)     22.5500   
+U64                     2.357e-04 7.356e-05   3.09e-04 (76%)     18.7761   
+U50                     2.351e-04       N/A        N/A (N/A)     50.6253  h
+U72                     2.346e-04    0.0000   2.35e-04 (100%)    29.5446   
+U62                     1.719e-04       N/A        N/A (N/A)     77.0020  h
+U71                     1.611e-04 7.195e-05   2.33e-04 (69%)     30.8722   
+U54                     1.432e-04       N/A        N/A (N/A)     76.9426  h
+U76                     1.124e-04    0.0000   1.12e-04 (100%)    22.5941   
+U41                     1.062e-04 2.620e-05   1.32e-04 (80%)     12.2896   
+U46                     8.901e-05       N/A        N/A (N/A)     50.1414  h
+U43                     8.831e-05       N/A        N/A (N/A)     50.1312  h
+U44                     8.782e-05       N/A        N/A (N/A)     50.0992  h
+U45                     8.771e-05       N/A        N/A (N/A)     50.1255  h
+U66                     7.470e-05 3.831e-05   1.13e-04 (66%)     20.6777   
+U38                     4.030e-05       N/A        N/A (N/A)     15.4163  h
+U36                     3.957e-05       N/A        N/A (N/A)     15.4163  h
+U39                     3.953e-05       N/A        N/A (N/A)     15.4163  h
+U63                     3.938e-05       N/A        N/A (N/A)     15.4163  h
+U37                     3.937e-05       N/A        N/A (N/A)     15.4163  h
+U55                     3.932e-05       N/A        N/A (N/A)     15.4163  h
+U47                     3.918e-05       N/A        N/A (N/A)     15.4163  h
+U40                     -1.225e-05
+                                  1.213e-04   1.09e-04 (-10%)     9.0417   
+U78                     -1.784e-05
+                                  2.079e-04   1.90e-04 (-8%)     19.7676   
+U67                     -1.785e-05
+                                  3.201e-05   1.42e-05 (-125%)    8.0915   
+U65                     -2.772e-05
+                                  1.367e-04   1.09e-04 (-24%)     8.8009   
+U56                     -3.784e-05
+                                  2.044e-04   1.67e-04 (-22%)    10.3136   
+U68                     -3.805e-05
+                                     0.0000   -3.80e-05 (100%)    7.2761   
+U35                     -4.295e-05
+                                  6.662e-05   2.37e-05 (-180%)    5.5239   
+U33                     -6.472e-05
+                                  1.114e-04   4.67e-05 (-138%)   10.1225   
+U48                     -6.555e-05
+                                  1.121e-04   4.66e-05 (-140%)    7.2829   
+U42                     -7.095e-05
+                                  1.425e-04   7.15e-05 (-98%)    12.8508   
+U74                     -1.056e-04
+                                     0.0000   -1.06e-04 (100%)   19.0632   
+U31                     -1.114e-04
+                                  2.794e-04   1.68e-04 (-65%)     7.8559   
+U34                     -1.559e-04
+                                  2.765e-04   1.21e-04 (-128%)    7.7426   
+--------------------------------------------------------------------------------
+Totals (48 cells)          6.598uW     N/A         N/A (N/A)      1.533uW
+1

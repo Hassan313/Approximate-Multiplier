@@ -1,0 +1,63 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : dadda_8bit_design2
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:39:33 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+dadda_8bit_design2                     6.71e-02 2.32e-02 3.06e+03 9.34e-02 100.0
+  HA6 (HA_2)                           5.37e-04 1.43e-04   34.679 7.15e-04   0.8
+  cmp17 (cmp_design2_0)                5.73e-04      N/A   33.986 1.28e-04   0.1
+  cmp16 (cmp_design2_1)                1.02e-03      N/A   36.894 4.30e-04   0.5
+  cmp15 (cmp_design2_2)                1.14e-03      N/A   41.653 4.37e-04   0.5
+  cmp14 (cmp_design2_3)                1.62e-03      N/A   42.748 7.36e-04   0.8
+  cmp13 (cmp_design2_4)                1.67e-03      N/A   43.365 8.38e-04   0.9
+  cmp12 (cmp_design2_5)                1.39e-03      N/A   46.898 7.39e-04   0.8
+  cmp11 (cmp_design2_6)                1.67e-03      N/A   43.252 7.24e-04   0.8
+  cmp10 (cmp_design2_7)                1.50e-03      N/A   43.320 3.92e-04   0.4
+  cmp9 (cmp_design2_8)                 1.04e-03      N/A   37.390 3.59e-04   0.4
+  cmp8 (cmp_design2_9)                 8.84e-04      N/A   36.125 2.38e-04   0.3
+  HA5 (HA_3)                           5.77e-04 1.39e-04   34.669 7.51e-04   0.8
+  HA4 (HA_4)                           4.22e-04 1.44e-04   34.664 6.00e-04   0.6
+  cmp7 (cmp_design2_10)                7.13e-04      N/A   36.100 9.52e-05   0.1
+  HA3 (HA_5)                           4.28e-04 1.42e-04   34.702 6.05e-04   0.6
+  cmp6 (cmp_design2_11)                7.07e-04      N/A   35.954 9.58e-05   0.1
+  FA1 (FA)                             1.39e-03 7.83e-04   92.474 2.26e-03   2.4
+    HA2 (HA_0)                         5.70e-04 4.97e-04   35.381 1.10e-03   1.2
+    HA1 (HA_1)                         5.58e-04 1.39e-04   34.755 7.32e-04   0.8
+  cmp5 (cmp_design2_12)                7.16e-04      N/A   36.139 9.87e-05   0.1
+  cmp4 (cmp_design2_13)                7.36e-04      N/A   36.233 9.89e-05   0.1
+  cmp3 (cmp_design2_14)                7.26e-04      N/A   36.061 1.02e-04   0.1
+  HA2 (HA_6)                           4.28e-04 1.43e-04   34.677 6.06e-04   0.6
+  cmp2 (cmp_design2_15)                7.14e-04      N/A   36.130 9.58e-05   0.1
+  cmp1 (cmp_design2_16)                7.25e-04      N/A   36.179 9.26e-05   0.1
+  HA1 (HA_7)                           4.29e-04 1.41e-04   34.708 6.06e-04   0.6
+1

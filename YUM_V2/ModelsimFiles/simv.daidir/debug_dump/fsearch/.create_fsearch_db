@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/opt/synopsys/vcs/P-2019.06-SP1//etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/opt/synopsys/vcs/P-2019.06-SP1/linux/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/opt/synopsys/vcs/P-2019.06-SP1/linux/lib:/opt/synopsys/vcs/P-2019.06-SP1/linux/lib/pylib27
+export LD_LIBRARY_PATH
+/opt/synopsys/vcs/P-2019.06-SP1/linux/bin/vcsfind_create_index.exe  -z  "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/simv.daidir/debug_dump/fsearch/./idents_6JOrJ1.xml.gz" -o "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/simv.daidir/debug_dump/fsearch/fsearch.db"

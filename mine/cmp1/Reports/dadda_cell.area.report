@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : area
+Design : dadda_8bit_cmp1
+Version: P-2019.03-SP1-1
+Date   : Fri Jan 31 18:52:28 2020
+****************************************
+
+Library(s) Used:
+
+    NanGate_15nm_OCL (File: /home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db)
+
+Number of ports:                          119
+Number of nets:                           201
+Number of cells:                          144
+Number of combinational cells:            119
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         60
+Number of references:                      22
+
+Combinational area:                 74.219521
+Buf/Inv area:                       46.792704
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                    74.219521
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+dadda_8bit_cmp1                     74.2195    100.0   70.3857     0.0000  0.0000  dadda_8bit_cmp1
+FA1                                  0.8847      1.2    0.0000     0.0000  0.0000  FA_2
+FA1/HA1                              0.8847      1.2    0.8847     0.0000  0.0000  HA_5
+FA1/HA2                              0.0000      0.0    0.0000     0.0000  0.0000  HA_4
+FA2                                  0.8847      1.2    0.0000     0.0000  0.0000  FA_1
+FA2/HA1                              0.8847      1.2    0.8847     0.0000  0.0000  HA_3
+FA2/HA2                              0.0000      0.0    0.0000     0.0000  0.0000  HA_2
+FA3                                  0.8847      1.2    0.0000     0.0000  0.0000  FA_0
+FA3/HA1                              0.8847      1.2    0.8847     0.0000  0.0000  HA_1
+FA3/HA2                              0.0000      0.0    0.0000     0.0000  0.0000  HA_0
+HA1                                  0.5898      0.8    0.5898     0.0000  0.0000  HA_8
+HA3                                  0.5898      0.8    0.5898     0.0000  0.0000  HA_6
+cmp10                                0.0000      0.0    0.0000     0.0000  0.0000  cmp1_8
+cmp15                                0.0000      0.0    0.0000     0.0000  0.0000  cmp1_3
+cmp16                                0.0000      0.0    0.0000     0.0000  0.0000  cmp1_2
+cmp17                                0.0000      0.0    0.0000     0.0000  0.0000  cmp1_1
+cmp18                                0.0000      0.0    0.0000     0.0000  0.0000  cmp1_0
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  74.2195     0.0000  0.0000
+
+1

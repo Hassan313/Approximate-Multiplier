@@ -1,0 +1,429 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : dadda_8b
+Version: P-2019.03-SP1-1
+Date   : Fri Jan 31 18:45:54 2020
+****************************************
+
+Operating Conditions: typical   Library: NanGate_15nm_OCL
+Wire Load Model Mode: top
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/CO (FA_X1)                  10.13     110.06 r
+  intadd_0/U6/CO (FA_X1)                  10.24     120.30 r
+  intadd_0/U5/CO (FA_X1)                   9.65     129.95 r
+  intadd_0/U4/CO (FA_X1)                  10.13     140.08 r
+  intadd_0/U3/CO (FA_X1)                   9.69     149.77 r
+  intadd_0/U2/S (FA_X1)                   12.75     162.52 f
+  P[14] (out)                              0.00     162.52 f
+  data arrival time                                 162.52
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -162.52
+  -----------------------------------------------------------
+  slack (MET)                                      2337.48
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/CO (FA_X1)                  10.13     110.06 r
+  intadd_0/U6/CO (FA_X1)                  10.24     120.30 r
+  intadd_0/U5/CO (FA_X1)                   9.65     129.95 r
+  intadd_0/U4/CO (FA_X1)                  10.13     140.08 r
+  intadd_0/U3/CO (FA_X1)                   9.69     149.77 r
+  intadd_0/U2/CO (FA_X1)                   7.29     157.06 r
+  P[15] (out)                              0.00     157.06 r
+  data arrival time                                 157.06
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -157.06
+  -----------------------------------------------------------
+  slack (MET)                                      2342.94
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[13] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/CO (FA_X1)                  10.13     110.06 r
+  intadd_0/U6/CO (FA_X1)                  10.24     120.30 r
+  intadd_0/U5/CO (FA_X1)                   9.65     129.95 r
+  intadd_0/U4/CO (FA_X1)                  10.13     140.08 r
+  intadd_0/U3/S (FA_X1)                   13.22     153.30 f
+  P[13] (out)                              0.00     153.30 f
+  data arrival time                                 153.30
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -153.30
+  -----------------------------------------------------------
+  slack (MET)                                      2346.70
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[12] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/CO (FA_X1)                  10.13     110.06 r
+  intadd_0/U6/CO (FA_X1)                  10.24     120.30 r
+  intadd_0/U5/CO (FA_X1)                   9.65     129.95 r
+  intadd_0/U4/S (FA_X1)                   13.22     143.17 f
+  P[12] (out)                              0.00     143.17 f
+  data arrival time                                 143.17
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -143.17
+  -----------------------------------------------------------
+  slack (MET)                                      2356.83
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[11] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/CO (FA_X1)                  10.13     110.06 r
+  intadd_0/U6/CO (FA_X1)                  10.24     120.30 r
+  intadd_0/U5/S (FA_X1)                   12.94     133.25 f
+  P[11] (out)                              0.00     133.25 f
+  data arrival time                                 133.25
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -133.25
+  -----------------------------------------------------------
+  slack (MET)                                      2366.75
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[10] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/CO (FA_X1)                  10.13     110.06 r
+  intadd_0/U6/S (FA_X1)                   13.22     123.28 f
+  P[10] (out)                              0.00     123.28 f
+  data arrival time                                 123.28
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -123.28
+  -----------------------------------------------------------
+  slack (MET)                                      2376.72
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/CO (FA_X1)                   9.65      99.93 r
+  intadd_0/U7/S (FA_X1)                   13.22     113.15 f
+  P[9] (out)                               0.00     113.15 f
+  data arrival time                                 113.15
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -113.15
+  -----------------------------------------------------------
+  slack (MET)                                      2386.85
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/CO (FA_X1)                  10.24      90.28 r
+  intadd_0/U8/S (FA_X1)                   12.94     103.23 f
+  P[8] (out)                               0.00     103.23 f
+  data arrival time                                 103.23
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                -103.23
+  -----------------------------------------------------------
+  slack (MET)                                      2396.77
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/CO (FA_X1)                  9.65      80.04 r
+  intadd_0/U9/S (FA_X1)                   13.22      93.26 f
+  P[7] (out)                               0.00      93.26 f
+  data arrival time                                  93.26
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -93.26
+  -----------------------------------------------------------
+  slack (MET)                                      2406.74
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U11/A1 (AND2_51)                         0.00       0.00 r
+  U11/U1/Z (AND2_X2)                       5.13       5.13 r
+  U11/Z (AND2_51)                          0.00       5.13 r
+  U50/X2 (COMP4to2_17)                     0.00       5.13 r
+  U50/U5/S (FA_X1)                        14.75      19.88 f
+  U50/U4/Z (AND2_X2)                       5.29      25.17 f
+  U50/U3/Z (OR2_X2)                        5.97      31.13 f
+  U50/Sum_BAR (COMP4to2_17)                0.00      31.13 f
+  U64/X1_BAR (COMP4to2_7)                  0.00      31.13 f
+  U64/U1/ZN (INV_X2)                       1.88      33.01 r
+  U64/U3/S (FA_X1)                        13.60      46.62 f
+  U64/U2/S (FA_X1)                        14.28      60.89 r
+  U64/Sum (COMP4to2_7)                     0.00      60.89 r
+  intadd_0/U11/CO (FA_X1)                  9.50      70.39 r
+  intadd_0/U10/S (FA_X1)                  12.94      83.34 f
+  P[6] (out)                               0.00      83.34 f
+  data arrival time                                  83.34
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -83.34
+  -----------------------------------------------------------
+  slack (MET)                                      2416.66
+
+
+1

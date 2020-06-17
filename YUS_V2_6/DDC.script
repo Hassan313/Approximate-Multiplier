@@ -1,0 +1,61 @@
+
+remove_design -all
+
+set power_preserve_rtl_hier_names "true"
+set search_path "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUS_V2_6/ModelsimFiles/"
+define_design_lib work -path "work"
+
+set topname "ERCM8_V2_6"
+#***********************************************
+#*Preliminary Preparing
+#***********************************************
+#read_verilog {ERCM8.v}
+#***********************************************
+#*Reading Libraries
+#***********************************************
+read_file "/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db"
+#read_file "/home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db "
+set link_library "/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db"
+#set link_library "/home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db "			 
+set target_library "/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db"
+#set target_library "/home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db "			
+list_libs
+#***********************************************
+#*
+#***********************************************
+read_ddc SynERCM8_V2_6.ddc
+current_design $topname
+
+read_saif -input hassansaif_3_exact.saif -instance_name Test_DADDA_8bit_All_Input/uut1 -unit ns
+##for below command: at first you should simulate the circit with zero delay. After that, DC will give a minimum delay. 
+#Then you should put the minimum delay instead of zero till met the constraints.
+
+set_max_delay 2.500 -from [ get_ports -filter {@port_direction == in}] -to [ get_ports -filter {@port_direction == out}]
+
+#***********************************************
+#*Setting Conditions
+#***********************************************
+
+##################################
+#compile
+###################################
+#compile 
+###########################################################################################################
+## you should create a folder with outputs name in your simulation path. This make the simulation easier. 
+###########################################################################################################
+#check_design 
+#write -hier -format verilog -out "~/CGRA/Multiplier_Ref/YUS_V2_6/ModelsimFiles/SynERCM8.v"
+#write_sdf -version 2.1 "~/CGRA/Multiplier_Ref/YUS_V2_6/ModelsimFiles/SynERCM8.sdf"
+#write -hierarchy -output "~/CGRA/Multiplier_Ref/YUS_V2_6/ModelsimFiles/SynERCM8.ddc"
+
+###########################################################################################################
+##Reports
+###########################################################################################################
+report_timing -path full -delay max -max_paths 10 -nworst 1  > "~/CGRA/Multiplier_Ref/YUS_V2_6/Reports_DDC/ERCM8_V2_6_timing.report"
+report_constraint -all_violators > "~/CGRA/Multiplier_Ref/YUS_V2_6/Reports_DDC/ERCM8_V2_6_constraint.report"
+report_power -hierarchy > "~/CGRA/Multiplier_Ref/YUS_V2_6/Reports_DDC/ERCM8_V2_6_power.report"
+report_power -cell > "~/CGRA/Multiplier_Ref/YUS_V2_6/Reports_DDC/ERCM8_V2_6_power_Cell.report"
+report_area  > "../../Multiplier_Ref/YUS_V2_6/Reports_DDC/ERCM8_V2_6_area.report"
+
+exit
+

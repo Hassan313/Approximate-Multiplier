@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : dadda_8b_trunc_4b
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 17:39:29 2020
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   dadda_8b_trunc_4b            0.00        3752.58       -3752.58  (VIOLATED)
+
+
+1

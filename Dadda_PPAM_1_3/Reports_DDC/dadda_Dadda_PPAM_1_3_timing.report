@@ -1,0 +1,446 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : dadda_PPAM_1_3
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:57:24 2020
+****************************************
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 f
+  U75/ZN (NOR2_X2)                         0.02       0.21 r
+  U76/ZN (AOI21_X1)                        0.03       0.24 f
+  U78/ZN (NOR2_X2)                         0.02       0.26 r
+  U79/ZN (AOI21_X1)                        0.03       0.29 f
+  U81/ZN (NOR2_X2)                         0.02       0.32 r
+  U82/ZN (AOI21_X1)                        0.03       0.35 f
+  U84/ZN (NOR2_X2)                         0.02       0.37 r
+  U85/ZN (AOI21_X1)                        0.03       0.40 f
+  U86/ZN (NOR2_X2)                         0.02       0.42 r
+  U87/ZN (AOI21_X1)                        0.03       0.45 f
+  U88/ZN (NOR2_X2)                         0.02       0.47 r
+  U89/ZN (AOI21_X1)                        0.03       0.50 f
+  U91/ZN (NOR2_X2)                         0.02       0.52 r
+  U92/ZN (AOI21_X1)                        0.03       0.55 f
+  U93/ZN (INV_X1)                          0.03       0.58 r
+  U94/ZN (AOI22_X1)                        0.03       0.61 f
+  U95/ZN (INV_X1)                          0.03       0.63 r
+  P[15] (out)                              0.00       0.63 r
+  data arrival time                                   0.63
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.63
+  -----------------------------------------------------------
+  slack (MET)                                         1.87
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 f
+  U75/ZN (NOR2_X2)                         0.02       0.21 r
+  U76/ZN (AOI21_X1)                        0.03       0.24 f
+  U78/ZN (NOR2_X2)                         0.02       0.26 r
+  U79/ZN (AOI21_X1)                        0.03       0.29 f
+  U81/ZN (NOR2_X2)                         0.02       0.32 r
+  U82/ZN (AOI21_X1)                        0.03       0.35 f
+  U84/ZN (NOR2_X2)                         0.02       0.37 r
+  U85/ZN (AOI21_X1)                        0.03       0.40 f
+  U86/ZN (NOR2_X2)                         0.02       0.42 r
+  U87/ZN (AOI21_X1)                        0.03       0.45 f
+  U88/ZN (NOR2_X2)                         0.02       0.47 r
+  U89/ZN (AOI21_X1)                        0.03       0.50 f
+  U91/ZN (NOR2_X2)                         0.02       0.52 r
+  U92/ZN (AOI21_X1)                        0.03       0.55 f
+  U93/ZN (INV_X1)                          0.03       0.58 r
+  U100/Z (XOR2_X1)                         0.03       0.61 f
+  P[14] (out)                              0.00       0.61 f
+  data arrival time                                   0.61
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.61
+  -----------------------------------------------------------
+  slack (MET)                                         1.89
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[13] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 f
+  U75/ZN (NOR2_X2)                         0.02       0.21 r
+  U76/ZN (AOI21_X1)                        0.03       0.24 f
+  U78/ZN (NOR2_X2)                         0.02       0.26 r
+  U79/ZN (AOI21_X1)                        0.03       0.29 f
+  U81/ZN (NOR2_X2)                         0.02       0.32 r
+  U82/ZN (AOI21_X1)                        0.03       0.35 f
+  U84/ZN (NOR2_X2)                         0.02       0.37 r
+  U85/ZN (AOI21_X1)                        0.03       0.40 f
+  U86/ZN (NOR2_X2)                         0.02       0.42 r
+  U87/ZN (AOI21_X1)                        0.03       0.45 f
+  U88/ZN (NOR2_X2)                         0.02       0.47 r
+  U89/ZN (AOI21_X1)                        0.03       0.50 f
+  U99/Z (XOR2_X1)                          0.03       0.53 r
+  P[13] (out)                              0.00       0.53 r
+  data arrival time                                   0.53
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.53
+  -----------------------------------------------------------
+  slack (MET)                                         1.97
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[12] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 f
+  U75/ZN (NOR2_X2)                         0.02       0.21 r
+  U76/ZN (AOI21_X1)                        0.03       0.24 f
+  U78/ZN (NOR2_X2)                         0.02       0.26 r
+  U79/ZN (AOI21_X1)                        0.03       0.29 f
+  U81/ZN (NOR2_X2)                         0.02       0.32 r
+  U82/ZN (AOI21_X1)                        0.03       0.35 f
+  U84/ZN (NOR2_X2)                         0.02       0.37 r
+  U85/ZN (AOI21_X1)                        0.03       0.40 f
+  U86/ZN (NOR2_X2)                         0.02       0.42 r
+  U87/ZN (AOI21_X1)                        0.03       0.45 f
+  U98/Z (XOR2_X1)                          0.03       0.48 r
+  P[12] (out)                              0.00       0.48 r
+  data arrival time                                   0.48
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.48
+  -----------------------------------------------------------
+  slack (MET)                                         2.02
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[11] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 f
+  U75/ZN (NOR2_X2)                         0.02       0.21 r
+  U76/ZN (AOI21_X1)                        0.03       0.24 f
+  U78/ZN (NOR2_X2)                         0.02       0.26 r
+  U79/ZN (AOI21_X1)                        0.03       0.29 f
+  U81/ZN (NOR2_X2)                         0.02       0.32 r
+  U82/ZN (AOI21_X1)                        0.03       0.35 f
+  U84/ZN (NOR2_X2)                         0.02       0.37 r
+  U85/ZN (AOI21_X1)                        0.03       0.40 f
+  U97/Z (XOR2_X1)                          0.03       0.43 r
+  P[11] (out)                              0.00       0.43 r
+  data arrival time                                   0.43
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.43
+  -----------------------------------------------------------
+  slack (MET)                                         2.07
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[10] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 r
+  U75/ZN (NOR2_X2)                         0.02       0.21 f
+  U76/ZN (AOI21_X1)                        0.03       0.24 r
+  U78/ZN (NOR2_X2)                         0.02       0.26 f
+  U79/ZN (AOI21_X1)                        0.03       0.30 r
+  U81/ZN (NOR2_X2)                         0.02       0.31 f
+  U82/ZN (AOI21_X1)                        0.03       0.35 r
+  U96/Z (XOR2_X1)                          0.03       0.38 f
+  P[10] (out)                              0.00       0.38 f
+  data arrival time                                   0.38
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.38
+  -----------------------------------------------------------
+  slack (MET)                                         2.12
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 r
+  U75/ZN (NOR2_X2)                         0.02       0.21 f
+  U76/ZN (AOI21_X1)                        0.03       0.24 r
+  U78/ZN (NOR2_X2)                         0.02       0.26 f
+  U79/ZN (AOI21_X1)                        0.03       0.30 r
+  U107/Z (XOR2_X1)                         0.03       0.33 f
+  P[9] (out)                               0.00       0.33 f
+  data arrival time                                   0.33
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.33
+  -----------------------------------------------------------
+  slack (MET)                                         2.17
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 r
+  U75/ZN (NOR2_X2)                         0.02       0.21 f
+  U76/ZN (AOI21_X1)                        0.03       0.24 r
+  U106/Z (XOR2_X1)                         0.03       0.27 f
+  P[8] (out)                               0.00       0.27 f
+  data arrival time                                   0.27
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.27
+  -----------------------------------------------------------
+  slack (MET)                                         2.23
+
+
+  Startpoint: B[4] (input port)
+  Endpoint: P[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[4] (in)                                0.00       0.00 f
+  U31/A2 (AND2_28)                         0.00       0.00 f
+  U31/U1/Z (AND2_X1)                       0.02       0.02 f
+  U31/Z (AND2_28)                          0.00       0.02 f
+  U69/B (HA_5)                             0.00       0.02 f
+  U69/U2/Z (XOR2_X1)                       0.03       0.05 r
+  U69/S (HA_5)                             0.00       0.05 r
+  U63/X1 (COMP4to2_5)                      0.00       0.05 r
+  U63/U1/Z (XOR2_X1)                       0.03       0.08 f
+  U63/U3/ZN (XNOR2_X1)                     0.02       0.11 f
+  U63/U5/Z (XOR2_X1)                       0.03       0.14 r
+  U63/U7/Z (XOR2_X1)                       0.03       0.17 f
+  U63/Sum (COMP4to2_5)                     0.00       0.17 f
+  U55/ZN (XNOR2_X1)                        0.02       0.19 r
+  U105/Z (XOR2_X1)                         0.03       0.22 f
+  P[7] (out)                               0.00       0.22 f
+  data arrival time                                   0.22
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.22
+  -----------------------------------------------------------
+  slack (MET)                                         2.28
+
+
+  Startpoint: A[6] (input port)
+  Endpoint: P[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[6] (in)                                0.00       0.00 r
+  U6/A1 (AND2_57)                          0.00       0.00 r
+  U6/U1/Z (AND2_X1)                        0.02       0.02 r
+  U6/Z (AND2_57)                           0.00       0.02 r
+  U62/X1 (COMP4to2_6)                      0.00       0.02 r
+  U62/U1/Z (XOR2_X1)                       0.03       0.05 f
+  U62/U3/ZN (XNOR2_X1)                     0.02       0.07 r
+  U62/U5/Z (XOR2_X1)                       0.03       0.10 f
+  U62/U8/Z (XOR2_X1)                       0.03       0.14 r
+  U62/Sum (COMP4to2_6)                     0.00       0.14 r
+  U56/ZN (INV_X1)                          0.03       0.16 f
+  U104/Z (XOR2_X1)                         0.03       0.19 r
+  P[6] (out)                               0.00       0.19 r
+  data arrival time                                   0.19
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.19
+  -----------------------------------------------------------
+  slack (MET)                                         2.31
+
+
+1

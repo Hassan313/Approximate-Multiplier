@@ -1,0 +1,67 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : dadda_8bit_cmp3
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:03:08 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+dadda_8bit_cmp3                        7.03e-02 4.37e-02 3.28e+03    0.117 100.0
+  FA3 (FA_0)                           6.55e-04 1.61e-04   34.679 8.51e-04   0.7
+    HA2 (HA_0)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_1)                         6.55e-04 1.61e-04   34.679 8.51e-04   0.7
+  cmp18 (cmp3_0)                       9.05e-04 3.46e-04   72.314 1.32e-03   1.1
+  cmp17 (cmp3_1)                       9.26e-04 8.51e-04   69.878 1.85e-03   1.6
+  cmp16 (cmp3_2)                       1.33e-03 8.90e-04   70.261 2.29e-03   2.0
+  cmp15 (cmp3_3)                       1.18e-03 1.16e-03   38.594 2.37e-03   2.0
+  cmp14 (cmp3_4)                       1.33e-03 1.31e-03   67.610 2.71e-03   2.3
+  cmp13 (cmp3_5)                       9.05e-04 7.60e-04   36.908 1.70e-03   1.5
+  cmp12 (cmp3_6)                       1.22e-03 1.47e-03   68.068 2.76e-03   2.3
+  cmp11 (cmp3_7)                       7.80e-04 6.62e-04   38.578 1.48e-03   1.3
+  cmp10 (cmp3_8)                       1.00e-03 9.44e-04   69.907 2.02e-03   1.7
+  cmp9 (cmp3_9)                        9.31e-04 5.35e-04   70.623 1.54e-03   1.3
+  HA3 (HA_6)                           5.24e-04 6.69e-05   22.684 6.14e-04   0.5
+  FA2 (FA_1)                           4.26e-04 1.63e-04   34.664 6.24e-04   0.5
+    HA2 (HA_2)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_3)                         4.26e-04 1.63e-04   34.664 6.24e-04   0.5
+  cmp8 (cmp3_10)                       7.46e-04 5.48e-04   70.656 1.36e-03   1.2
+  FA1 (FA_2)                           9.94e-04 1.55e-04   34.703 1.18e-03   1.0
+    HA2 (HA_4)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_5)                         9.94e-04 1.55e-04   34.703 1.18e-03   1.0
+  cmp7 (cmp3_11)                       6.86e-04 5.39e-04   70.766 1.30e-03   1.1
+  cmp6 (cmp3_12)                       1.14e-03 5.29e-04   41.253 1.71e-03   1.5
+  cmp5 (cmp3_13)                       7.47e-04 5.49e-04   70.620 1.37e-03   1.2
+  cmp4 (cmp3_14)                       6.35e-04 5.48e-04   70.580 1.25e-03   1.1
+  cmp_3 (cmp3_15)                      6.88e-04 5.55e-04   70.690 1.31e-03   1.1
+  HA2 (HA_7)                           3.81e-04 6.93e-05   22.679 4.73e-04   0.4
+  cmp2 (cmp3_16)                       7.52e-04 5.35e-04   70.656 1.36e-03   1.2
+  cmp1 (cmp3_17)                       6.33e-04 5.42e-04   70.640 1.25e-03   1.1
+  HA1 (HA_8)                           3.51e-04 6.92e-05   22.668 4.43e-04   0.4
+1

@@ -1,0 +1,84 @@
+0 
+24
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O4 -I/opt/synopsys/vcs/P-2019.06-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/libvirsim.so /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/liberrorinf.so /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/libsnpsmalloc.so /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/opt/synopsys/vcs/P-2019.06-SP1/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/synopsys/vcs/P-2019.06-SP1/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/opt/synopsys/vcs/P-2019.06-SP1/include
+-gen_obj
+-picarchive
+/opt/synopsys/vcs/P-2019.06-SP1/linux/bin/vcs1
+AND2.v
+CSA_Cell.v
+CSA_Mult.v
+FA.v
+test_All_inputs.v
+43
+XDG_SESSION_ID=3363
+XDG_SESSION_COOKIE=5d0b16fdc993e5251b8ef6600000027e-1576348505.98805-1124540378
+XDG_RUNTIME_DIR=/run/user/1016
+VMR_MODE_FLAG=32
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/opt/synopsys/vcs/P-2019.06-SP1/
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/opt/synopsys/vcs/P-2019.06-SP1/linux
+SSH_TTY=/dev/pts/2
+SSH_CONNECTION=10.166.211.213 53527 68.181.64.24 22
+SSH_CLIENT=10.166.211.213 53527 22
+SNPS_VCS_RH5_SHLIB_RELOC=1
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCI=/usr/share/scilab
+PYTHONPATH=:/usr/local/pycuda/lib/python
+OVA_UUM=0
+OA_UNSUPPORTED_PLAT=linux_rhel50_gcc44x
+NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript
+MATLAB=/opt/matlab/R2017a
+MATHEMATICA_HOME=/opt/Wolfram/Mathematica/10.0
+LINGO_17_HOME=/home/home2/students/afzalikusha/lingo17
+LC_ALL=C
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+GUROBI_HOME=/home/home2/students/afzalikusha/gurobi800/linux64
+FLEXLM_BORROWFILE=/home/home2/students/afzalikusha/.sahand-borrow.txt
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+CULA_ROOT=/usr/local/cula
+CULA_LIB_PATH_64=/usr/local/cula/lib64
+CULA_LIB_PATH_32=/usr/local/cula/lib
+CULA_INC_PATH=/usr/local/cula/include
+CULASPARSE_ROOT=/usr/local/culasparse
+CULASPARSE_LIB_PATH_64=/usr/local/culasparse/lib64
+CULASPARSE_LIB_PATH_32=/usr/local/culasparse/lib
+CULASPARSE_INC_PATH=/usr/local/culasparse/include
+CUDA_INC_PATH=/usr/local/cuda/include
+CUDADIR=/usr/local/cuda
+0
+5
+1576349294 test_All_inputs.v
+1576348493 FA.v
+1576348446 CSA_Mult.v
+1576348446 CSA_Cell.v
+1576348890 AND2.v
+4
+1567308923 /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/libvirsim.so
+1567308477 /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/liberrorinf.so
+1567308430 /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/libsnpsmalloc.so
+1567308708 /opt/synopsys/vcs/P-2019.06-SP1/linux/lib/libvfs.so
+1576349304 simv.daidir
+-1 partitionlib

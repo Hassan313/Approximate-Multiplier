@@ -1,0 +1,517 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : CSA_Mult_8bits
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 11:46:54 2020
+****************************************
+
+Operating Conditions: typical   Library: NanGate_15nm_OCL
+Wire Load Model Mode: top
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/CO (FA_X1)                   9.54      63.09 r
+  intadd_0/U6/CO (FA_X1)                   9.76      72.84 r
+  intadd_0/U5/CO (FA_X1)                   9.75      82.60 r
+  intadd_0/U4/CO (FA_X1)                   9.75      92.35 r
+  intadd_0/U3/CO (FA_X1)                   9.20     101.55 r
+  intadd_0/U2/S (FA_X1)                   12.75     114.30 f
+  P[14] (out)                              0.00     114.30 f
+  data arrival time                                 114.30
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                -114.30
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -111.80
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[15] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/CO (FA_X1)                   9.54      63.09 r
+  intadd_0/U6/CO (FA_X1)                   9.76      72.84 r
+  intadd_0/U5/CO (FA_X1)                   9.75      82.60 r
+  intadd_0/U4/CO (FA_X1)                   9.75      92.35 r
+  intadd_0/U3/CO (FA_X1)                   9.20     101.55 r
+  intadd_0/U2/CO (FA_X1)                   7.29     108.84 r
+  P[15] (out)                              0.00     108.84 r
+  data arrival time                                 108.84
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                -108.84
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -106.34
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[13] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/CO (FA_X1)                   9.54      63.09 r
+  intadd_0/U6/CO (FA_X1)                   9.76      72.84 r
+  intadd_0/U5/CO (FA_X1)                   9.75      82.60 r
+  intadd_0/U4/CO (FA_X1)                   9.75      92.35 r
+  intadd_0/U3/S (FA_X1)                   12.94     105.29 f
+  P[13] (out)                              0.00     105.29 f
+  data arrival time                                 105.29
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                -105.29
+  -----------------------------------------------------------
+  slack (VIOLATED)                                 -102.79
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[12] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/CO (FA_X1)                   9.54      63.09 r
+  intadd_0/U6/CO (FA_X1)                   9.76      72.84 r
+  intadd_0/U5/CO (FA_X1)                   9.75      82.60 r
+  intadd_0/U4/S (FA_X1)                   12.94      95.54 f
+  P[12] (out)                              0.00      95.54 f
+  data arrival time                                  95.54
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -95.54
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -93.04
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[11] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/CO (FA_X1)                   9.54      63.09 r
+  intadd_0/U6/CO (FA_X1)                   9.76      72.84 r
+  intadd_0/U5/S (FA_X1)                   12.94      85.78 f
+  P[11] (out)                              0.00      85.78 f
+  data arrival time                                  85.78
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -85.78
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -83.28
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[10] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/CO (FA_X1)                   9.54      63.09 r
+  intadd_0/U6/S (FA_X1)                   12.94      76.03 f
+  P[10] (out)                              0.00      76.03 f
+  data arrival time                                  76.03
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -76.03
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -73.53
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  intadd_0/U7/S (FA_X1)                   12.72      66.26 f
+  P[9] (out)                               0.00      66.26 f
+  data arrival time                                  66.26
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -66.26
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -63.76
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U36/X (CSA_Cell_27)                      0.00       0.00 r
+  U36/U0/A1 (AND2_27)                      0.00       0.00 r
+  U36/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U36/U0/Z (AND2_27)                       0.00       5.31 r
+  U36/U1/A (FA_27)                         0.00       5.31 r
+  U36/U1/S (FA_27)                         0.00       5.31 r
+  U36/S_out (CSA_Cell_27)                  0.00       5.31 r
+  U43/S_in (CSA_Cell_20)                   0.00       5.31 r
+  U43/U1/B (FA_20)                         0.00       5.31 r
+  U43/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U43/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U43/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U43/U1/S_BAR (FA_20)                     0.00      16.59 f
+  U43/S_out_BAR (CSA_Cell_20)              0.00      16.59 f
+  U50/S_in_BAR (CSA_Cell_13)               0.00      16.59 f
+  U50/U1/B_BAR (FA_13)                     0.00      16.59 f
+  U50/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U50/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U50/U1/S (FA_13)                         0.00      32.08 f
+  U50/S_out (CSA_Cell_13)                  0.00      32.08 f
+  U57/S_in (CSA_Cell_6)                    0.00      32.08 f
+  U57/U1/B (FA_6)                          0.00      32.08 f
+  U57/U1/U1/S (FA_X1)                     14.96      47.04 r
+  U57/U1/S (FA_6)                          0.00      47.04 r
+  U57/S_out (CSA_Cell_6)                   0.00      47.04 r
+  U14/Z (AND2_X2)                          6.50      53.54 r
+  U15/ZN (NOR2_X1)                         1.54      55.08 f
+  P[8] (out)                               0.00      55.08 f
+  data arrival time                                  55.08
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -55.08
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -52.58
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U35/X (CSA_Cell_28)                      0.00       0.00 r
+  U35/U0/A1 (AND2_28)                      0.00       0.00 r
+  U35/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U35/U0/Z (AND2_28)                       0.00       5.31 r
+  U35/U1/A (FA_28)                         0.00       5.31 r
+  U35/U1/S (FA_28)                         0.00       5.31 r
+  U35/S_out (CSA_Cell_28)                  0.00       5.31 r
+  U42/S_in (CSA_Cell_21)                   0.00       5.31 r
+  U42/U1/B (FA_21)                         0.00       5.31 r
+  U42/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U42/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U42/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U42/U1/S_BAR (FA_21)                     0.00      16.59 f
+  U42/S_out_BAR (CSA_Cell_21)              0.00      16.59 f
+  U49/S_in_BAR (CSA_Cell_14)               0.00      16.59 f
+  U49/U1/B_BAR (FA_14)                     0.00      16.59 f
+  U49/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U49/U1/U2/S (FA_X1)                     13.60      32.08 f
+  U49/U1/S (FA_14)                         0.00      32.08 f
+  U49/S_out (CSA_Cell_14)                  0.00      32.08 f
+  U56/S_in (CSA_Cell_7)                    0.00      32.08 f
+  U56/U1/B (FA_7)                          0.00      32.08 f
+  U56/U1/U1/S (FA_X1)                     12.93      45.01 r
+  U56/U1/S (FA_7)                          0.00      45.01 r
+  U56/S_out (CSA_Cell_7)                   0.00      45.01 r
+  P[7] (out)                               0.00      45.01 r
+  data arrival time                                  45.01
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -45.01
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -42.51
+
+
+  Startpoint: A[4] (input port)
+  Endpoint: P[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[4] (in)                                0.00       0.00 r
+  U34/X (CSA_Cell_29)                      0.00       0.00 r
+  U34/U0/A1 (AND2_29)                      0.00       0.00 r
+  U34/U0/U1/Z (AND2_X2)                    5.31       5.31 r
+  U34/U0/Z (AND2_29)                       0.00       5.31 r
+  U34/U1/A (FA_29)                         0.00       5.31 r
+  U34/U1/S (FA_29)                         0.00       5.31 r
+  U34/S_out (CSA_Cell_29)                  0.00       5.31 r
+  U41/S_in (CSA_Cell_22)                   0.00       5.31 r
+  U41/U1/B (FA_22)                         0.00       5.31 r
+  U41/U1/U1/Z (OR2_X2)                     4.15       9.46 r
+  U41/U1/U2/ZN (INV_X1)                    1.55      11.01 f
+  U41/U1/U3/Z (OR2_X2)                     5.58      16.59 f
+  U41/U1/S_BAR (FA_22)                     0.00      16.59 f
+  U41/S_out_BAR (CSA_Cell_22)              0.00      16.59 f
+  U48/S_in_BAR (CSA_Cell_15)               0.00      16.59 f
+  U48/U1/B_BAR (FA_15)                     0.00      16.59 f
+  U48/U1/U1/ZN (INV_X2)                    1.88      18.47 r
+  U48/U1/U2/S (FA_X1)                     12.50      30.97 f
+  U48/U1/S (FA_15)                         0.00      30.97 f
+  U48/S_out (CSA_Cell_15)                  0.00      30.97 f
+  P[6] (out)                               0.00      30.97 f
+  data arrival time                                  30.97
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                 -30.97
+  -----------------------------------------------------------
+  slack (VIOLATED)                                  -28.47
+
+
+1

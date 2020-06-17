@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : dadda_8bit_cmp2
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 17:51:13 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+dadda_8bit_cmp2                        9.40e-03 2.59e-03 1.68e+03 1.37e-02 100.0
+  FA3 (FA_0)                           5.20e-04 2.59e-04   92.114 8.72e-04   6.4
+    HA2 (HA_0)                         2.26e-04 1.72e-04   35.338 4.33e-04   3.2
+    HA1 (HA_1)                         2.09e-04 4.95e-05   34.700 2.93e-04   2.1
+  cmp18 (cmp2_0)                          0.000    0.000    0.000    0.000   0.0
+  cmp17 (cmp2_1)                          0.000    0.000    0.000    0.000   0.0
+  cmp16 (cmp2_2)                          0.000    0.000    0.000    0.000   0.0
+  cmp15 (cmp2_3)                          0.000    0.000    0.000    0.000   0.0
+  cmp10 (cmp2_8)                          0.000    0.000    0.000    0.000   0.0
+  HA3 (HA_6)                           1.60e-04 2.15e-05   22.665 2.04e-04   1.5
+  FA2 (FA_1)                           5.67e-04 2.83e-04   92.058 9.42e-04   6.9
+    HA2 (HA_2)                         2.52e-04 1.93e-04   35.313 4.80e-04   3.5
+    HA1 (HA_3)                         2.10e-04 4.97e-05   34.680 2.94e-04   2.2
+  cmp8 (cmp2_10)                          0.000    0.000    0.000    0.000   0.0
+  FA1 (FA_2)                           5.83e-04 2.81e-04   92.083 9.56e-04   7.0
+    HA2 (HA_4)                         2.66e-04 1.90e-04   35.412 4.91e-04   3.6
+    HA1 (HA_5)                         2.08e-04 4.96e-05   34.687 2.92e-04   2.1
+  cmp6 (cmp2_12)                          0.000    0.000    0.000    0.000   0.0
+  HA1 (HA_8)                           1.85e-04 2.12e-05   22.672 2.29e-04   1.7
+1

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : ERCM8
+Version: P-2019.03-SP1-1
+Date   : Sun Jan 26 18:46:27 2020
+****************************************
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+Number of ports:                           39
+Number of nets:                           236
+Number of cells:                          213
+Number of combinational cells:            213
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         33
+Number of references:                      17
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+1

@@ -1,0 +1,209 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+              Version P-2019.03-SP1-1 for linux64 - May 06, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /home/home2/students/afzalikusha/.synopsys_dv_prefs.tcl
+remove_design -all
+1
+set power_preserve_rtl_hier_names "true"
+true
+set search_path "/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2"
+/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2
+define_design_lib work -path "work"
+1
+set topname "ERCM8_V2"
+ERCM8_V2
+#***********************************************
+#*Preliminary Preparing
+#***********************************************
+read_verilog {ERCM8_V2.v}
+Loading db file '/opt/synopsys/syn/P-2019.03-SP1-1/libraries/syn/gtech.db'
+Loading db file '/opt/synopsys/syn/P-2019.03-SP1-1/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading verilog file '/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ERCM8_V2.v'
+Running PRESTO HDLC
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Compiling source file /home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ERCM8_V2.v
+Presto compilation completed successfully.
+Current design is now '/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ERCM8_V2.db:ERCM8_V2'
+Loaded 1 design.
+Current design is 'ERCM8_V2'.
+ERCM8_V2
+#***********************************************
+#*Reading Libraries
+#***********************************************
+read_file "/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db"
+Information: Inferring file format db based on file name extension(s). (UID-1034)
+Loading db file '/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db'
+Information: Using CCS timing libraries. (TIM-024)
+Loaded 0 designs.
+#read_file "/home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db "
+set link_library "/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db"
+/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db
+#set link_library "/home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db "			 
+set target_library "/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db"
+/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db
+#set target_library "/home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db "			
+list_libs
+Logical Libraries:
+-------------------------------------------------------------------------
+Library		File			Path
+-------		----			----
+  gtech		gtech.db		/opt/synopsys/syn/P-2019.03-SP1-1/libraries/syn
+  standard.sldb	standard.sldb		/opt/synopsys/syn/P-2019.03-SP1-1/libraries/syn
+  /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS nanGate_ccs_15_LS.db	/home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19
+1
+#***********************************************
+#*
+#***********************************************
+current_design $topname
+Current design is 'ERCM8_V2'.
+{ERCM8_V2}
+analyze -format verilog -lib work "ERCM8_V2.v"
+Running PRESTO HDLC
+Compiling source file /home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ERCM8_V2.v
+Presto compilation completed successfully.
+1
+elaborate $topname -lib work
+Running PRESTO HDLC
+Presto compilation completed successfully. (ERCM8_V2)
+Warning: Overwriting design file '/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ERCM8_V2.db'. (DDB-24)
+Elaborated 1 design.
+Current design is now 'ERCM8_V2'.
+1
+set auto_wire_load_selection "true"
+true
+check_design
+1
+##for below command: at first you should simulate the circit with zero delay. After that, DC will give a minimum delay. 
+#Then you should put the minimum delay instead of zero till met the constraints.
+set_max_delay 2.500 -from [ get_ports -filter {@port_direction == in}] -to [ get_ports -filter {@port_direction == out}]
+1
+#***********************************************
+#*Setting Conditions
+#***********************************************
+##################################
+#compile
+###################################
+compile
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | P-2019.03-DWBB_201903.1 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'ERCM8_V2'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+    0:00:01       0.0      0.00       0.0       0.0                          
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+###########################################################################################################
+## you should create a folder with outputs name in your simulation path. This make the simulation easier. 
+###########################################################################################################
+#check_design 
+write -hier -format verilog -out "~/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/SynERCM8_V2.v"
+Writing verilog file '/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/SynERCM8_V2.v'.
+1
+write_sdf -version 2.1 "~/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/SynERCM8_V2.sdf"
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/SynERCM8_V2.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write -hierarchy -output "~/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/SynERCM8_V2.ddc"
+Writing ddc file '/home/home2/students/afzalikusha/CGRA/Multiplier_Ref/YUM_V2/ModelsimFiles/SynERCM8_V2.ddc'.
+1
+###########################################################################################################
+##Reports
+###########################################################################################################
+report_timing -path full -delay max -max_paths 10 -nworst 1  > "~/CGRA/Multiplier_Ref/YUM_V2/Reports/ERCM8_V2_timing.report"
+report_constraint -all_violators > "~/CGRA/Multiplier_Ref/YUM_V2/Reports/ERCM8_V2_constraint.report"
+report_power -hierarchy > "~/CGRA/Multiplier_Ref/YUM_V2/Reports/ERCM8_V2_power.report"
+report_power -cell -hier > "~/CGRA/Multiplier_Ref/YUM_V2/Reports/ERCM8_V2_power_Cell.report"
+report_area  > "../../Multiplier_Ref/YUM_V2/Reports/ERCM8_V2_area.report"
+exit
+
+Thank you...

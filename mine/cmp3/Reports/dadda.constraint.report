@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : dadda_8bit_cmp3
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 17:58:07 2020
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   dadda_8bit_cmp3              0.00        3287.33       -3287.33  (VIOLATED)
+
+
+1

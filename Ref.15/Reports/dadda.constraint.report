@@ -1,0 +1,19 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : WT_8bit_counter
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:40:37 2020
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   WT_8bit_counter              0.00        5788.55       -5788.55  (VIOLATED)
+
+
+1

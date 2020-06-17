@@ -1,0 +1,58 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : mul8_280
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:22:52 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+mul8_280                               7.25e-02 3.20e-02 1.48e+03    0.106 100.0
+  n1986 (FA_X1_0)                      1.67e-03 2.92e-03   60.216 4.65e-03   4.4
+  n1972 (FA_X1_1)                      3.27e-03 3.63e-03   61.641 6.96e-03   6.6
+  n1956 (FA_X1_2)                      3.57e-03 3.67e-03   62.262 7.31e-03   6.9
+  n1942 (HA_X1_0)                      8.65e-04 2.93e-03   35.829 3.84e-03   3.6
+  n1838 (HA_X1_1)                      7.01e-04 5.62e-04   23.041 1.29e-03   1.2
+  n1808 (FA_X1_3)                      3.26e-03 1.76e-03   61.632 5.08e-03   4.8
+  n1794 (FA_X1_4)                      5.29e-03 2.96e-03   62.354 8.31e-03   7.8
+  n1780 (FA_X1_5)                      5.38e-03 3.44e-03   62.666 8.88e-03   8.4
+  n1764 (FA_X1_6)                      2.99e-03 1.92e-03   62.698 4.97e-03   4.7
+  n1660 (HA_X1_2)                      1.78e-03 1.12e-03   22.420 2.92e-03   2.8
+  n1632 (HA_X1_3)                      1.48e-03 1.07e-03   22.040 2.57e-03   2.4
+  n1602 (FA_X1_7)                      3.48e-03 1.64e-03   62.460 5.18e-03   4.9
+  n1586 (FA_X1_8)                      6.55e-04 5.19e-04   13.544 1.19e-03   1.1
+  n1482 (HA_X1_4)                      8.48e-04 1.21e-04   22.677 9.92e-04   0.9
+  n1454 (FA_X1_9)                      2.84e-03 9.75e-04   61.077 3.88e-03   3.7
+  n1438 (FA_X1_10)                     3.54e-03 9.57e-04   61.459 4.56e-03   4.3
+  n1424 (FA_X1_11)                     2.35e-03 5.56e-04   61.167 2.97e-03   2.8
+  n1350 (FA_X1_12)                     2.73e-03      N/A   62.661 2.70e-03   2.5
+  n1232 (HA_X1_5)                      9.89e-04 1.30e-04   22.682 1.14e-03   1.1
+  n1202 (FA_X1_13)                     2.56e-03 1.18e-04   61.844 2.74e-03   2.6
+  n1186 (HA_X1_6)                      1.12e-03 2.82e-04   34.613 1.44e-03   1.4
+1

@@ -1,0 +1,361 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : dadda_8bit_cmp1
+Version: P-2019.03-SP1-1
+Date   : Fri Jan 31 18:52:28 2020
+****************************************
+
+
+   max_transition
+
+                             Required        Actual
+   Net                      Transition     Transition        Slack
+   -----------------------------------------------------------------
+   n110                         0.48           5.27          -4.79  (VIOLATED)
+       PIN :   U119/A1          0.48           5.27          -4.79  (VIOLATED)
+       PIN :   U55/A1           0.48           5.27          -4.79  (VIOLATED)
+       PIN :   U148/CO          0.48           5.27          -4.79  (VIOLATED)
+   intadd_1/n1                  0.48           5.23          -4.75  (VIOLATED)
+       PIN :   U48/A2           0.48           5.23          -4.75  (VIOLATED)
+       PIN :   U125/A1          0.48           5.23          -4.75  (VIOLATED)
+       PIN :   intadd_1/U2/CO
+                                0.48           5.23          -4.75  (VIOLATED)
+   intadd_0/n2                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U2/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U3/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_0/n4                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U4/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U5/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_0/n5                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U5/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U6/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_0/n6                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U6/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U7/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_1/n2                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_1/U2/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_1/U3/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_1/n3                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_1/U3/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_1/U4/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_1/n4                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_1/U4/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_1/U5/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   intadd_0/n3                  0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U3/CI
+                                0.48           4.07          -3.59  (VIOLATED)
+       PIN :   intadd_0/U4/CO
+                                0.48           4.07          -3.59  (VIOLATED)
+   FA1/HA1/n1                   0.48           3.89          -3.41  (VIOLATED)
+       PIN :   FA1/HA1/U1/A1
+                                0.48           3.89          -3.41  (VIOLATED)
+       PIN :   FA1/HA1/U3/ZN
+                                0.48           3.89          -3.41  (VIOLATED)
+   FA2/HA1/n1                   0.48           3.89          -3.41  (VIOLATED)
+       PIN :   FA2/HA1/U1/A1
+                                0.48           3.89          -3.41  (VIOLATED)
+       PIN :   FA2/HA1/U3/ZN
+                                0.48           3.89          -3.41  (VIOLATED)
+   FA3/HA1/n1                   0.48           3.89          -3.41  (VIOLATED)
+       PIN :   FA3/HA1/U1/A1
+                                0.48           3.89          -3.41  (VIOLATED)
+       PIN :   FA3/HA1/U3/ZN
+                                0.48           3.89          -3.41  (VIOLATED)
+   n65                          0.48           3.79          -3.31  (VIOLATED)
+       PIN :   U48/A1           0.48           3.79          -3.31  (VIOLATED)
+       PIN :   U125/A2          0.48           3.79          -3.31  (VIOLATED)
+       PIN :   U65/ZN           0.48           3.79          -3.31  (VIOLATED)
+   n69                          0.48           3.76          -3.28  (VIOLATED)
+       PIN :   U119/A2          0.48           3.76          -3.28  (VIOLATED)
+       PIN :   U55/A2           0.48           3.76          -3.28  (VIOLATED)
+       PIN :   U71/ZN           0.48           3.76          -3.28  (VIOLATED)
+   L1_6[9]                      0.48           3.69          -3.21  (VIOLATED)
+       PIN :   FA1/HA1/U2/A2
+                                0.48           3.69          -3.21  (VIOLATED)
+       PIN :   FA1/HA1/U3/A2
+                                0.48           3.69          -3.21  (VIOLATED)
+       PIN :   U131/ZN          0.48           3.69          -3.21  (VIOLATED)
+   L2_0[13]                     0.48           3.69          -3.21  (VIOLATED)
+       PIN :   FA3/HA1/U2/A2
+                                0.48           3.69          -3.21  (VIOLATED)
+       PIN :   FA3/HA1/U3/A2
+                                0.48           3.69          -3.21  (VIOLATED)
+       PIN :   U138/ZN          0.48           3.69          -3.21  (VIOLATED)
+   n68                          0.48           3.69          -3.21  (VIOLATED)
+       PIN :   U69/ZN           0.48           3.69          -3.21  (VIOLATED)
+       PIN :   FA2/HA1/U2/A2
+                                0.48           3.69          -3.21  (VIOLATED)
+       PIN :   FA2/HA1/U3/A2
+                                0.48           3.69          -3.21  (VIOLATED)
+   L1_5[11]                     0.48           3.65          -3.17  (VIOLATED)
+       PIN :   FA2/HA1/U2/A1
+                                0.48           3.65          -3.17  (VIOLATED)
+       PIN :   FA2/HA1/U3/A1
+                                0.48           3.65          -3.17  (VIOLATED)
+       PIN :   U127/ZN          0.48           3.65          -3.17  (VIOLATED)
+   n66                          0.48           3.65          -3.17  (VIOLATED)
+       PIN :   U66/ZN           0.48           3.65          -3.17  (VIOLATED)
+       PIN :   FA3/HA1/U2/A1
+                                0.48           3.65          -3.17  (VIOLATED)
+       PIN :   FA3/HA1/U3/A1
+                                0.48           3.65          -3.17  (VIOLATED)
+   n67                          0.48           3.65          -3.17  (VIOLATED)
+       PIN :   U67/ZN           0.48           3.65          -3.17  (VIOLATED)
+       PIN :   FA1/HA1/U2/A1
+                                0.48           3.65          -3.17  (VIOLATED)
+       PIN :   FA1/HA1/U3/A1
+                                0.48           3.65          -3.17  (VIOLATED)
+   n83                          0.48           3.51          -3.03  (VIOLATED)
+       PIN :   U86/ZN           0.48           3.51          -3.03  (VIOLATED)
+       PIN :   HA1/U1/A2        0.48           3.51          -3.03  (VIOLATED)
+   L2_0[12]                     0.48           3.43          -2.95  (VIOLATED)
+       PIN :   intadd_0/U4/A
+                                0.48           3.43          -2.95  (VIOLATED)
+       PIN :   FA2/HA1/U1/A2
+                                0.48           3.43          -2.95  (VIOLATED)
+       PIN :   FA2/HA1/U2/Z     0.48           3.43          -2.95  (VIOLATED)
+   L3_1[14]                     0.48           3.43          -2.95  (VIOLATED)
+       PIN :   FA3/HA1/U1/A2
+                                0.48           3.43          -2.95  (VIOLATED)
+       PIN :   FA3/HA1/U2/Z     0.48           3.43          -2.95  (VIOLATED)
+       PIN :   intadd_0/U2/A
+                                0.48           3.43          -2.95  (VIOLATED)
+   intadd_1/CI                  0.48           3.40          -2.92  (VIOLATED)
+       PIN :   intadd_1/U5/A
+                                0.48           3.40          -2.92  (VIOLATED)
+       PIN :   U141/A2          0.48           3.40          -2.92  (VIOLATED)
+       PIN :   U119/Z           0.48           3.40          -2.92  (VIOLATED)
+   L1_0[5]                      0.48           3.37          -2.89  (VIOLATED)
+       PIN :   intadd_1/U4/A
+                                0.48           3.37          -2.89  (VIOLATED)
+       PIN :   U123/ZN          0.48           3.37          -2.89  (VIOLATED)
+   L1_2[9]                      0.48           3.37          -2.89  (VIOLATED)
+       PIN :   intadd_0/U7/A
+                                0.48           3.37          -2.89  (VIOLATED)
+       PIN :   U104/ZN          0.48           3.37          -2.89  (VIOLATED)
+   L2_3_5                       0.48           3.37          -2.89  (VIOLATED)
+       PIN :   intadd_1/U3/A
+                                0.48           3.37          -2.89  (VIOLATED)
+       PIN :   U117/ZN          0.48           3.37          -2.89  (VIOLATED)
+   L2_3_6                       0.48           3.37          -2.89  (VIOLATED)
+       PIN :   intadd_1/U2/A
+                                0.48           3.37          -2.89  (VIOLATED)
+       PIN :   U114/ZN          0.48           3.37          -2.89  (VIOLATED)
+   L2_3[10]                     0.48           3.35          -2.87  (VIOLATED)
+       PIN :   intadd_0/U5/B
+                                0.48           3.35          -2.87  (VIOLATED)
+       PIN :   FA1/HA1/U1/A2
+                                0.48           3.35          -2.87  (VIOLATED)
+       PIN :   FA1/HA1/U2/Z     0.48           3.35          -2.87  (VIOLATED)
+   L1_0[6]                      0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_1/U3/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U90/ZN           0.48           3.23          -2.75  (VIOLATED)
+   L1_0[7]                      0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_1/U2/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U98/ZN           0.48           3.23          -2.75  (VIOLATED)
+   L1_3[10]                     0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_0/U6/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U95/ZN           0.48           3.23          -2.75  (VIOLATED)
+   L1_5[8]                      0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_0/U7/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U116/ZN          0.48           3.23          -2.75  (VIOLATED)
+   L2_3[11]                     0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_0/U4/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U102/ZN          0.48           3.23          -2.75  (VIOLATED)
+   L2_3[12]                     0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_0/U3/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U122/ZN          0.48           3.23          -2.75  (VIOLATED)
+   L2_3_3                       0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_1/U5/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U96/ZN           0.48           3.23          -2.75  (VIOLATED)
+   L2_3_4                       0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_1/U4/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U91/ZN           0.48           3.23          -2.75  (VIOLATED)
+   intadd_0/B[5]                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   intadd_0/U2/B
+                                0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U92/ZN           0.48           3.23          -2.75  (VIOLATED)
+   n127                         0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U148/B           0.48           3.23          -2.75  (VIOLATED)
+       PIN :   U105/ZN          0.48           3.23          -2.75  (VIOLATED)
+   L1_1[4]                      0.48           3.16          -2.68  (VIOLATED)
+       PIN :   U109/ZN          0.48           3.16          -2.68  (VIOLATED)
+       PIN :   HA1/U1/A1        0.48           3.16          -2.68  (VIOLATED)
+   L2_0[2]                      0.48           3.16          -2.68  (VIOLATED)
+       PIN :   U101/ZN          0.48           3.16          -2.68  (VIOLATED)
+       PIN :   HA3/U1/A1        0.48           3.16          -2.68  (VIOLATED)
+   n63                          0.48           3.10          -2.62  (VIOLATED)
+       PIN :   U140/A1          0.48           3.10          -2.62  (VIOLATED)
+       PIN :   U128/A2          0.48           3.10          -2.62  (VIOLATED)
+       PIN :   U54/ZN           0.48           3.10          -2.62  (VIOLATED)
+   n109                         0.48           3.03          -2.55  (VIOLATED)
+       PIN :   U140/A2          0.48           3.03          -2.55  (VIOLATED)
+       PIN :   U128/A1          0.48           3.03          -2.55  (VIOLATED)
+       PIN :   U108/ZN          0.48           3.03          -2.55  (VIOLATED)
+   intadd_0/CI                  0.48           3.03          -2.55  (VIOLATED)
+       PIN :   intadd_0/U7/CI
+                                0.48           3.03          -2.55  (VIOLATED)
+       PIN :   U142/A2          0.48           3.03          -2.55  (VIOLATED)
+       PIN :   U125/Z           0.48           3.03          -2.55  (VIOLATED)
+   L2_0[11]                     0.48           2.77          -2.29  (VIOLATED)
+       PIN :   FA2/HA1/U1/Z     0.48           2.77          -2.29  (VIOLATED)
+       PIN :   U53/I            0.48           2.77          -2.29  (VIOLATED)
+   L2_3[9]                      0.48           2.77          -2.29  (VIOLATED)
+       PIN :   FA1/HA1/U1/Z     0.48           2.77          -2.29  (VIOLATED)
+       PIN :   U52/I            0.48           2.77          -2.29  (VIOLATED)
+   L3_0[13]                     0.48           2.77          -2.29  (VIOLATED)
+       PIN :   FA3/HA1/U1/Z     0.48           2.77          -2.29  (VIOLATED)
+       PIN :   U51/I            0.48           2.77          -2.29  (VIOLATED)
+   n128                         0.48           2.77          -2.29  (VIOLATED)
+       PIN :   U72/I            0.48           2.77          -2.29  (VIOLATED)
+       PIN :   U128/Z           0.48           2.77          -2.29  (VIOLATED)
+   L2_1_2                       0.48           2.76          -2.28  (VIOLATED)
+       PIN :   U120/Z           0.48           2.76          -2.28  (VIOLATED)
+       PIN :   HA3/U1/A2        0.48           2.76          -2.28  (VIOLATED)
+   n100                         0.48           2.60          -2.12  (VIOLATED)
+       PIN :   U148/A           0.48           2.60          -2.12  (VIOLATED)
+       PIN :   U140/B           0.48           2.60          -2.12  (VIOLATED)
+       PIN :   U72/ZN           0.48           2.60          -2.12  (VIOLATED)
+   L2_0[4]                      0.48           2.45          -1.97  (VIOLATED)
+       PIN :   HA1/U2/ZN        0.48           2.45          -1.97  (VIOLATED)
+       PIN :   intadd_1/U5/CI
+                                0.48           2.45          -1.97  (VIOLATED)
+   L3_0[2]                      0.48           2.45          -1.97  (VIOLATED)
+       PIN :   HA3/U2/ZN        0.48           2.45          -1.97  (VIOLATED)
+       PIN :   U148/CI          0.48           2.45          -1.97  (VIOLATED)
+   HA1/n2                       0.48           2.45          -1.97  (VIOLATED)
+       PIN :   HA1/U2/I         0.48           2.45          -1.97  (VIOLATED)
+       PIN :   HA1/U1/ZN        0.48           2.45          -1.97  (VIOLATED)
+   HA3/n2                       0.48           2.45          -1.97  (VIOLATED)
+       PIN :   HA3/U2/I         0.48           2.45          -1.97  (VIOLATED)
+       PIN :   HA3/U1/ZN        0.48           2.45          -1.97  (VIOLATED)
+   O[1]                         0.48           2.38          -1.90  (VIOLATED)
+       PIN :   U140/ZN          0.48           2.38          -1.90  (VIOLATED)
+   O[5]                         0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_1/U4/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[6]                         0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_1/U3/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[7]                         0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_1/U2/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[10]                        0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_0/U6/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[13]                        0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_0/U3/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[11]                        0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_0/U5/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[12]                        0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_0/U4/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[14]                        0.48           2.29          -1.81  (VIOLATED)
+       PIN :   intadd_0/U2/S
+                                0.48           2.29          -1.81  (VIOLATED)
+   O[2]                         0.48           2.28          -1.80  (VIOLATED)
+       PIN :   U148/S           0.48           2.28          -1.80  (VIOLATED)
+   O[4]                         0.48           2.28          -1.80  (VIOLATED)
+       PIN :   intadd_1/U5/S
+                                0.48           2.28          -1.80  (VIOLATED)
+   O[9]                         0.48           2.28          -1.80  (VIOLATED)
+       PIN :   intadd_0/U7/S
+                                0.48           2.28          -1.80  (VIOLATED)
+   n62                          0.48           2.11          -1.63  (VIOLATED)
+       PIN :   U49/I            0.48           2.11          -1.63  (VIOLATED)
+       PIN :   U48/Z            0.48           2.11          -1.63  (VIOLATED)
+   n111                         0.48           2.11          -1.63  (VIOLATED)
+       PIN :   U56/I            0.48           2.11          -1.63  (VIOLATED)
+       PIN :   U55/Z            0.48           2.11          -1.63  (VIOLATED)
+   intadd_0/n1                  0.48           2.07          -1.59  (VIOLATED)
+       PIN :   intadd_0/U2/CO
+                                0.48           2.07          -1.59  (VIOLATED)
+   n58                          0.48           2.05          -1.57  (VIOLATED)
+       PIN :   U142/A1          0.48           2.05          -1.57  (VIOLATED)
+       PIN :   U49/ZN           0.48           2.05          -1.57  (VIOLATED)
+   n64                          0.48           2.05          -1.57  (VIOLATED)
+       PIN :   U141/A1          0.48           2.05          -1.57  (VIOLATED)
+       PIN :   U56/ZN           0.48           2.05          -1.57  (VIOLATED)
+   n59                          0.48           2.04          -1.56  (VIOLATED)
+       PIN :   intadd_0/U3/A
+                                0.48           2.04          -1.56  (VIOLATED)
+       PIN :   U51/ZN           0.48           2.04          -1.56  (VIOLATED)
+   n60                          0.48           2.04          -1.56  (VIOLATED)
+       PIN :   intadd_0/U6/A
+                                0.48           2.04          -1.56  (VIOLATED)
+       PIN :   U52/ZN           0.48           2.04          -1.56  (VIOLATED)
+   n61                          0.48           2.04          -1.56  (VIOLATED)
+       PIN :   intadd_0/U5/A
+                                0.48           2.04          -1.56  (VIOLATED)
+       PIN :   U53/ZN           0.48           2.04          -1.56  (VIOLATED)
+   O[3]                         0.48           1.51          -1.03  (VIOLATED)
+       PIN :   U141/ZN          0.48           1.51          -1.03  (VIOLATED)
+   O[8]                         0.48           1.43          -0.95  (VIOLATED)
+       PIN :   U142/ZN          0.48           1.43          -0.95  (VIOLATED)
+   O[0]                         0.48           1.18          -0.70  (VIOLATED)
+       PIN :   U139/ZN          0.48           1.18          -0.70  (VIOLATED)
+   n70                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n71                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n76                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n77                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n78                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n79                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n80                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n81                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n84                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n86                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n92                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n95                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n97                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n98                          0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n101                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n105                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n106                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n107                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n108                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n114                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n119                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n120                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n122                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n123                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+   n126                         0.48           0.48           0.00  (VIOLATED: increase significant digits)
+
+   -----------------------------------------------------------------
+   Total                      103              -199.74  
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   dadda_8bit_cmp1              0.00       6646126.00     -6646126.00
+                                                                    (VIOLATED)
+
+
+1

@@ -1,0 +1,56 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : mul8_061
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:12:39 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+mul8_061                               1.06e-02 4.97e-03 1.51e+03 1.71e-02 100.0
+  n1986 (FA_X1_0)                      1.85e-04 2.73e-04   60.312 5.18e-04   3.0
+  n1972 (FA_X1_1)                      4.06e-04 3.63e-04   61.606 8.31e-04   4.9
+  n1956 (FA_X1_2)                      5.35e-04 3.39e-04   62.207 9.36e-04   5.5
+  n1942 (HA_X1_0)                      1.81e-04 4.34e-04   35.947 6.51e-04   3.8
+  n1838 (HA_X1_1)                      7.84e-05 2.80e-05   23.043 1.29e-04   0.8
+  n1808 (FA_X1_3)                      4.63e-04 2.75e-04   61.537 8.00e-04   4.7
+  n1794 (FA_X1_4)                      6.90e-04 3.26e-04   62.278 1.08e-03   6.3
+  n1780 (FA_X1_5)                      7.91e-04 2.20e-04   63.376 1.07e-03   6.3
+  n1764 (FA_X1_6)                      6.81e-04 3.38e-04   62.747 1.08e-03   6.3
+  n1720 (HA_X1_2)                         0.000 4.78e-05   22.663 7.05e-05   0.4
+  n1660 (HA_X1_3)                      2.13e-04 1.44e-04   22.465 3.80e-04   2.2
+  n1602 (FA_X1_7)                      7.68e-04 3.74e-04   62.359 1.20e-03   7.1
+  n1586 (FA_X1_8)                      2.43e-04 2.75e-04   15.653 5.34e-04   3.1
+  n1482 (HA_X1_4)                      1.55e-04 2.34e-05   22.698 2.01e-04   1.2
+  n1454 (FA_X1_9)                      3.87e-04 9.57e-05   61.049 5.43e-04   3.2
+  n1438 (FA_X1_10)                     4.86e-04 1.48e-04   61.350 6.96e-04   4.1
+  n1424 (FA_X1_11)                     4.20e-04 1.01e-04   61.052 5.83e-04   3.4
+  n1350 (FA_X1_12)                     4.25e-04 1.75e-04   61.637 6.61e-04   3.9
+  n1232 (HA_X1_5)                      1.49e-04 2.59e-05   22.699 1.98e-04   1.2
+  n1202 (FA_X1_13)                     4.96e-04 6.90e-05   61.818 6.27e-04   3.7
+  n1186 (HA_X1_6)                      2.16e-04 4.83e-05   34.700 2.99e-04   1.8
+1

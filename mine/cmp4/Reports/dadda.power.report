@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : dadda_8bit_cmp4
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:04:55 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+dadda_8bit_cmp4                        2.14e-02 1.18e-02 3.67e+03 3.69e-02 100.0
+  FA3 (FA_0)                           1.98e-04 4.81e-05   34.718 2.81e-04   0.8
+    HA2 (HA_0)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_1)                         1.98e-04 4.81e-05   34.718 2.81e-04   0.8
+  cmp18 (cmp4_0)                       3.83e-04      N/A   87.767 4.47e-04   1.2
+  cmp17 (cmp4_1)                       4.35e-04 2.31e-04   86.910 7.53e-04   2.0
+  cmp16 (cmp4_2)                       4.78e-04 1.74e-04   87.258 7.39e-04   2.0
+  cmp15 (cmp4_3)                       4.82e-04 3.90e-04   86.695 9.59e-04   2.6
+  cmp14 (cmp4_4)                       5.12e-04 3.34e-04   86.859 9.32e-04   2.5
+  cmp13 (cmp4_5)                       3.44e-04 4.68e-04   50.638 8.63e-04   2.3
+  cmp12 (cmp4_6)                       5.63e-04 4.26e-04   86.291 1.08e-03   2.9
+  cmp11 (cmp4_7)                       3.05e-04 2.59e-04   50.594 6.14e-04   1.7
+  cmp10 (cmp4_8)                       5.38e-04 1.69e-04   86.740 7.94e-04   2.1
+  cmp9 (cmp4_9)                        4.56e-04 3.39e-05   86.875 5.77e-04   1.6
+  HA3 (HA_6)                           1.81e-04 2.36e-05   22.694 2.27e-04   0.6
+  FA2 (FA_1)                           2.19e-04 4.71e-05   34.753 3.01e-04   0.8
+    HA2 (HA_2)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_3)                         2.19e-04 4.71e-05   34.753 3.01e-04   0.8
+  cmp8 (cmp4_10)                       4.64e-04 3.24e-05   86.893 5.84e-04   1.6
+  FA1 (FA_2)                           2.40e-04 4.90e-05   34.717 3.24e-04   0.9
+    HA2 (HA_4)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_5)                         2.40e-04 4.90e-05   34.717 3.24e-04   0.9
+  cmp7 (cmp4_11)                       4.65e-04 3.08e-05   86.890 5.83e-04   1.6
+  cmp6 (cmp4_12)                       3.35e-04 2.16e-04   53.383 6.05e-04   1.6
+  cmp5 (cmp4_13)                       4.55e-04 3.77e-05   86.884 5.79e-04   1.6
+  cmp_4 (cmp4_14)                      3.35e-04 4.60e-05   86.916 4.68e-04   1.3
+  cmp3 (cmp4_15)                       4.54e-04 3.57e-05   86.913 5.77e-04   1.6
+  HA2 (HA_7)                           1.78e-04 2.20e-05   22.674 2.23e-04   0.6
+  cmp2 (cmp4_16)                       4.64e-04 3.20e-05   86.908 5.83e-04   1.6
+  cmp1 (cmp4_17)                       3.42e-04 4.39e-05   86.872 4.73e-04   1.3
+  HA1 (HA_8)                           1.72e-04 2.22e-05   22.685 2.17e-04   0.6
+1

@@ -1,0 +1,53 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : dadda_8bit_cmp1
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 18:02:33 2020
+****************************************
+
+
+Library(s) Used:
+
+    /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS (File: /home/home2/students/afzalikusha/ScaledLibraries/Library_Date_19/nanGate_ccs_15_LS.db)
+
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+dadda_8bit_cmp1                        3.60e-02 5.02e-03 1.45e+03 4.24e-02 100.0
+  FA3 (FA_0)                           9.28e-04 2.14e-04   34.679 1.18e-03   2.8
+    HA2 (HA_0)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_1)                         9.28e-04 2.14e-04   34.679 1.18e-03   2.8
+  cmp18 (cmp1_0)                          0.000    0.000    0.000    0.000   0.0
+  cmp17 (cmp1_1)                          0.000    0.000    0.000    0.000   0.0
+  cmp16 (cmp1_2)                          0.000    0.000    0.000    0.000   0.0
+  cmp15 (cmp1_3)                          0.000    0.000    0.000    0.000   0.0
+  cmp10 (cmp1_8)                          0.000    0.000    0.000    0.000   0.0
+  HA3 (HA_6)                           6.35e-04 9.00e-05   22.684 7.48e-04   1.8
+  FA2 (FA_1)                           9.03e-04 2.14e-04   34.664 1.15e-03   2.7
+    HA2 (HA_2)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_3)                         9.03e-04 2.14e-04   34.664 1.15e-03   2.7
+  FA1 (FA_2)                           9.44e-04 2.11e-04   34.703 1.19e-03   2.8
+    HA2 (HA_4)                            0.000    0.000    0.000    0.000   0.0
+    HA1 (HA_5)                         9.44e-04 2.11e-04   34.703 1.19e-03   2.8
+  HA1 (HA_8)                           7.77e-04 8.81e-05   22.667 8.88e-04   2.1
+1

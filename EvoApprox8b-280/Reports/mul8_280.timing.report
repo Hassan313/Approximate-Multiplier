@@ -1,0 +1,445 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : mul8_280
+Version: P-2019.03-SP1-1
+Date   : Fri Jan 31 18:56:33 2020
+****************************************
+
+Operating Conditions: typical   Library: NanGate_15nm_OCL
+Wire Load Model Mode: top
+
+  Startpoint: A[7] (input port)
+  Endpoint: O[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[7] (in)                                0.00       0.00 r
+  U65/ZN (INV_X1)                          3.77       3.77 f
+  U66/ZN (NOR2_X1)                         4.44       8.21 r
+  n1202/A (FA_X1_13)                       0.00       8.21 r
+  n1202/U1/B (FA_X1_27)                    0.00       8.21 r
+  n1202/U1/U1/CO (FA_X1)                  10.33      18.53 r
+  n1202/U1/CO (FA_X1_27)                   0.00      18.53 r
+  n1202/CO (FA_X1_13)                      0.00      18.53 r
+  n1438/A (FA_X1_10)                       0.00      18.53 r
+  n1438/U1/B (FA_X1_24)                    0.00      18.53 r
+  n1438/U1/U1/S (FA_X1)                   15.51      34.04 f
+  n1438/U1/S (FA_X1_24)                    0.00      34.04 f
+  n1438/S (FA_X1_10)                       0.00      34.04 f
+  n1632/B (HA_X1_3)                        0.00      34.04 f
+  n1632/U1/Z (XOR2_X1)                     6.33      40.37 f
+  n1632/S (HA_X1_3)                        0.00      40.37 f
+  n1780/A (FA_X1_5)                        0.00      40.37 f
+  n1780/U1/B (FA_X1_19)                    0.00      40.37 f
+  n1780/U1/U1/S (FA_X1)                   15.52      55.89 r
+  n1780/U1/S (FA_X1_19)                    0.00      55.89 r
+  n1780/S (FA_X1_5)                        0.00      55.89 r
+  n1942/A (HA_X1_0)                        0.00      55.89 r
+  n1942/U1/Z (AND2_X1)                     5.99      61.88 r
+  n1942/CO (HA_X1_0)                       0.00      61.88 r
+  n1956/CI (FA_X1_2)                       0.00      61.88 r
+  n1956/U1/A (FA_X1_16)                    0.00      61.88 r
+  n1956/U1/U1/CO (FA_X1)                   8.93      70.81 r
+  n1956/U1/CO (FA_X1_16)                   0.00      70.81 r
+  n1956/CO (FA_X1_2)                       0.00      70.81 r
+  n1972/CI (FA_X1_1)                       0.00      70.81 r
+  n1972/U1/A (FA_X1_15)                    0.00      70.81 r
+  n1972/U1/U1/CO (FA_X1)                   8.90      79.70 r
+  n1972/U1/CO (FA_X1_15)                   0.00      79.70 r
+  n1972/CO (FA_X1_1)                       0.00      79.70 r
+  n1986/CI (FA_X1_0)                       0.00      79.70 r
+  n1986/U1/A (FA_X1_14)                    0.00      79.70 r
+  n1986/U1/U1/S (FA_X1)                   12.75      92.46 f
+  n1986/U1/S (FA_X1_14)                    0.00      92.46 f
+  n1986/S (FA_X1_0)                        0.00      92.46 f
+  O[14] (out)                              0.00      92.46 f
+  data arrival time                                  92.46
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -92.46
+  -----------------------------------------------------------
+  slack (MET)                                      2407.54
+
+
+  Startpoint: A[7] (input port)
+  Endpoint: O[15] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[7] (in)                                0.00       0.00 r
+  U65/ZN (INV_X1)                          3.77       3.77 f
+  U66/ZN (NOR2_X1)                         4.44       8.21 r
+  n1202/A (FA_X1_13)                       0.00       8.21 r
+  n1202/U1/B (FA_X1_27)                    0.00       8.21 r
+  n1202/U1/U1/CO (FA_X1)                  10.33      18.53 r
+  n1202/U1/CO (FA_X1_27)                   0.00      18.53 r
+  n1202/CO (FA_X1_13)                      0.00      18.53 r
+  n1438/A (FA_X1_10)                       0.00      18.53 r
+  n1438/U1/B (FA_X1_24)                    0.00      18.53 r
+  n1438/U1/U1/S (FA_X1)                   15.51      34.04 f
+  n1438/U1/S (FA_X1_24)                    0.00      34.04 f
+  n1438/S (FA_X1_10)                       0.00      34.04 f
+  n1632/B (HA_X1_3)                        0.00      34.04 f
+  n1632/U1/Z (XOR2_X1)                     6.33      40.37 f
+  n1632/S (HA_X1_3)                        0.00      40.37 f
+  n1780/A (FA_X1_5)                        0.00      40.37 f
+  n1780/U1/B (FA_X1_19)                    0.00      40.37 f
+  n1780/U1/U1/S (FA_X1)                   15.52      55.89 r
+  n1780/U1/S (FA_X1_19)                    0.00      55.89 r
+  n1780/S (FA_X1_5)                        0.00      55.89 r
+  n1942/A (HA_X1_0)                        0.00      55.89 r
+  n1942/U1/Z (AND2_X1)                     5.99      61.88 r
+  n1942/CO (HA_X1_0)                       0.00      61.88 r
+  n1956/CI (FA_X1_2)                       0.00      61.88 r
+  n1956/U1/A (FA_X1_16)                    0.00      61.88 r
+  n1956/U1/U1/CO (FA_X1)                   8.93      70.81 r
+  n1956/U1/CO (FA_X1_16)                   0.00      70.81 r
+  n1956/CO (FA_X1_2)                       0.00      70.81 r
+  n1972/CI (FA_X1_1)                       0.00      70.81 r
+  n1972/U1/A (FA_X1_15)                    0.00      70.81 r
+  n1972/U1/U1/CO (FA_X1)                   8.90      79.70 r
+  n1972/U1/CO (FA_X1_15)                   0.00      79.70 r
+  n1972/CO (FA_X1_1)                       0.00      79.70 r
+  n1986/CI (FA_X1_0)                       0.00      79.70 r
+  n1986/U1/A (FA_X1_14)                    0.00      79.70 r
+  n1986/U1/U1/CO (FA_X1)                   8.68      88.38 r
+  n1986/U1/CO (FA_X1_14)                   0.00      88.38 r
+  n1986/CO (FA_X1_0)                       0.00      88.38 r
+  U84/Z (OR2_X1)                           2.86      91.24 r
+  O[15] (out)                              0.00      91.24 r
+  data arrival time                                  91.24
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -91.24
+  -----------------------------------------------------------
+  slack (MET)                                      2408.76
+
+
+  Startpoint: A[7] (input port)
+  Endpoint: O[13] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[7] (in)                                0.00       0.00 r
+  U65/ZN (INV_X1)                          3.77       3.77 f
+  U66/ZN (NOR2_X1)                         4.44       8.21 r
+  n1202/A (FA_X1_13)                       0.00       8.21 r
+  n1202/U1/B (FA_X1_27)                    0.00       8.21 r
+  n1202/U1/U1/CO (FA_X1)                  10.33      18.53 r
+  n1202/U1/CO (FA_X1_27)                   0.00      18.53 r
+  n1202/CO (FA_X1_13)                      0.00      18.53 r
+  n1438/A (FA_X1_10)                       0.00      18.53 r
+  n1438/U1/B (FA_X1_24)                    0.00      18.53 r
+  n1438/U1/U1/S (FA_X1)                   15.51      34.04 f
+  n1438/U1/S (FA_X1_24)                    0.00      34.04 f
+  n1438/S (FA_X1_10)                       0.00      34.04 f
+  n1632/B (HA_X1_3)                        0.00      34.04 f
+  n1632/U1/Z (XOR2_X1)                     6.33      40.37 f
+  n1632/S (HA_X1_3)                        0.00      40.37 f
+  n1780/A (FA_X1_5)                        0.00      40.37 f
+  n1780/U1/B (FA_X1_19)                    0.00      40.37 f
+  n1780/U1/U1/S (FA_X1)                   15.52      55.89 r
+  n1780/U1/S (FA_X1_19)                    0.00      55.89 r
+  n1780/S (FA_X1_5)                        0.00      55.89 r
+  n1942/A (HA_X1_0)                        0.00      55.89 r
+  n1942/U1/Z (AND2_X1)                     5.99      61.88 r
+  n1942/CO (HA_X1_0)                       0.00      61.88 r
+  n1956/CI (FA_X1_2)                       0.00      61.88 r
+  n1956/U1/A (FA_X1_16)                    0.00      61.88 r
+  n1956/U1/U1/CO (FA_X1)                   8.93      70.81 r
+  n1956/U1/CO (FA_X1_16)                   0.00      70.81 r
+  n1956/CO (FA_X1_2)                       0.00      70.81 r
+  n1972/CI (FA_X1_1)                       0.00      70.81 r
+  n1972/U1/A (FA_X1_15)                    0.00      70.81 r
+  n1972/U1/U1/S (FA_X1)                   12.75      83.56 f
+  n1972/U1/S (FA_X1_15)                    0.00      83.56 f
+  n1972/S (FA_X1_1)                        0.00      83.56 f
+  O[13] (out)                              0.00      83.56 f
+  data arrival time                                  83.56
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -83.56
+  -----------------------------------------------------------
+  slack (MET)                                      2416.44
+
+
+  Startpoint: A[7] (input port)
+  Endpoint: O[12] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[7] (in)                                0.00       0.00 r
+  U65/ZN (INV_X1)                          3.77       3.77 f
+  U66/ZN (NOR2_X1)                         4.44       8.21 r
+  n1202/A (FA_X1_13)                       0.00       8.21 r
+  n1202/U1/B (FA_X1_27)                    0.00       8.21 r
+  n1202/U1/U1/CO (FA_X1)                  10.33      18.53 r
+  n1202/U1/CO (FA_X1_27)                   0.00      18.53 r
+  n1202/CO (FA_X1_13)                      0.00      18.53 r
+  n1438/A (FA_X1_10)                       0.00      18.53 r
+  n1438/U1/B (FA_X1_24)                    0.00      18.53 r
+  n1438/U1/U1/S (FA_X1)                   15.51      34.04 f
+  n1438/U1/S (FA_X1_24)                    0.00      34.04 f
+  n1438/S (FA_X1_10)                       0.00      34.04 f
+  n1632/B (HA_X1_3)                        0.00      34.04 f
+  n1632/U1/Z (XOR2_X1)                     6.33      40.37 f
+  n1632/S (HA_X1_3)                        0.00      40.37 f
+  n1780/A (FA_X1_5)                        0.00      40.37 f
+  n1780/U1/B (FA_X1_19)                    0.00      40.37 f
+  n1780/U1/U1/S (FA_X1)                   15.52      55.89 r
+  n1780/U1/S (FA_X1_19)                    0.00      55.89 r
+  n1780/S (FA_X1_5)                        0.00      55.89 r
+  n1942/A (HA_X1_0)                        0.00      55.89 r
+  n1942/U1/Z (AND2_X1)                     5.99      61.88 r
+  n1942/CO (HA_X1_0)                       0.00      61.88 r
+  n1956/CI (FA_X1_2)                       0.00      61.88 r
+  n1956/U1/A (FA_X1_16)                    0.00      61.88 r
+  n1956/U1/U1/S (FA_X1)                   12.78      74.66 f
+  n1956/U1/S (FA_X1_16)                    0.00      74.66 f
+  n1956/S (FA_X1_2)                        0.00      74.66 f
+  O[12] (out)                              0.00      74.66 f
+  data arrival time                                  74.66
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -74.66
+  -----------------------------------------------------------
+  slack (MET)                                      2425.34
+
+
+  Startpoint: A[7] (input port)
+  Endpoint: O[11] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[7] (in)                                0.00       0.00 r
+  U65/ZN (INV_X1)                          3.77       3.77 f
+  U66/ZN (NOR2_X1)                         4.44       8.21 r
+  n1202/A (FA_X1_13)                       0.00       8.21 r
+  n1202/U1/B (FA_X1_27)                    0.00       8.21 r
+  n1202/U1/U1/CO (FA_X1)                  10.33      18.53 r
+  n1202/U1/CO (FA_X1_27)                   0.00      18.53 r
+  n1202/CO (FA_X1_13)                      0.00      18.53 r
+  n1438/A (FA_X1_10)                       0.00      18.53 r
+  n1438/U1/B (FA_X1_24)                    0.00      18.53 r
+  n1438/U1/U1/S (FA_X1)                   15.51      34.04 f
+  n1438/U1/S (FA_X1_24)                    0.00      34.04 f
+  n1438/S (FA_X1_10)                       0.00      34.04 f
+  n1632/B (HA_X1_3)                        0.00      34.04 f
+  n1632/U1/Z (XOR2_X1)                     6.33      40.37 f
+  n1632/S (HA_X1_3)                        0.00      40.37 f
+  n1780/A (FA_X1_5)                        0.00      40.37 f
+  n1780/U1/B (FA_X1_19)                    0.00      40.37 f
+  n1780/U1/U1/S (FA_X1)                   15.52      55.89 r
+  n1780/U1/S (FA_X1_19)                    0.00      55.89 r
+  n1780/S (FA_X1_5)                        0.00      55.89 r
+  n1942/A (HA_X1_0)                        0.00      55.89 r
+  n1942/U1/Z (AND2_X1)                     5.99      61.88 r
+  n1942/U3/ZN (NOR2_X1)                    1.25      63.13 f
+  n1942/S (HA_X1_0)                        0.00      63.13 f
+  O[11] (out)                              0.00      63.13 f
+  data arrival time                                  63.13
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -63.13
+  -----------------------------------------------------------
+  slack (MET)                                      2436.87
+
+
+  Startpoint: A[6] (input port)
+  Endpoint: O[10] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[6] (in)                                0.00       0.00 r
+  U55/ZN (INV_X1)                          3.77       3.77 f
+  U56/ZN (NOR2_X1)                         4.89       8.66 r
+  n1186/A (HA_X1_6)                        0.00       8.66 r
+  n1186/U1/Z (AND2_X1)                     6.46      15.12 r
+  n1186/CO (HA_X1_6)                       0.00      15.12 r
+  n1424/A (FA_X1_11)                       0.00      15.12 r
+  n1424/U1/B (FA_X1_25)                    0.00      15.12 r
+  n1424/U1/U1/S (FA_X1)                   14.43      29.54 f
+  n1424/U1/S (FA_X1_25)                    0.00      29.54 f
+  n1424/S (FA_X1_11)                       0.00      29.54 f
+  n1602/CI (FA_X1_7)                       0.00      29.54 f
+  n1602/U1/A (FA_X1_21)                    0.00      29.54 f
+  n1602/U1/U1/S (FA_X1)                   14.63      44.18 r
+  n1602/U1/S (FA_X1_21)                    0.00      44.18 r
+  n1602/S (FA_X1_7)                        0.00      44.18 r
+  n1764/A (FA_X1_6)                        0.00      44.18 r
+  n1764/U1/B (FA_X1_20)                    0.00      44.18 r
+  n1764/U1/U1/S (FA_X1)                   13.27      57.45 f
+  n1764/U1/S (FA_X1_20)                    0.00      57.45 f
+  n1764/S (FA_X1_6)                        0.00      57.45 f
+  O[10] (out)                              0.00      57.45 f
+  data arrival time                                  57.45
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -57.45
+  -----------------------------------------------------------
+  slack (MET)                                      2442.55
+
+
+  Startpoint: A[6] (input port)
+  Endpoint: O[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[6] (in)                                0.00       0.00 r
+  U55/ZN (INV_X1)                          3.77       3.77 f
+  U56/ZN (NOR2_X1)                         4.89       8.66 r
+  n1186/A (HA_X1_6)                        0.00       8.66 r
+  n1186/U1/Z (AND2_X1)                     6.46      15.12 r
+  n1186/U3/ZN (NOR2_X1)                    2.50      17.62 f
+  n1186/S (HA_X1_6)                        0.00      17.62 f
+  n1350/CI (FA_X1_12)                      0.00      17.62 f
+  n1350/U1/A (FA_X1_26)                    0.00      17.62 f
+  n1350/U1/U1/S (FA_X1)                   14.70      32.32 r
+  n1350/U1/S (FA_X1_26)                    0.00      32.32 r
+  n1350/S (FA_X1_12)                       0.00      32.32 r
+  n1586/A (FA_X1_8)                        0.00      32.32 r
+  n1586/U1/B (FA_X1_22)                    0.00      32.32 r
+  n1586/U1/U1/Z (AND2_X1)                  6.40      38.73 r
+  n1586/U1/U3/ZN (NOR2_X1)                 2.31      41.04 f
+  n1586/U1/S (FA_X1_22)                    0.00      41.04 f
+  n1586/S (FA_X1_8)                        0.00      41.04 f
+  U89/ZN (INV_X1)                          1.96      42.99 r
+  U90/ZN (OAI21_X1)                        2.35      45.34 f
+  O[9] (out)                               0.00      45.34 f
+  data arrival time                                  45.34
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -45.34
+  -----------------------------------------------------------
+  slack (MET)                                      2454.66
+
+
+  Startpoint: A[6] (input port)
+  Endpoint: O[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  A[6] (in)                                0.00       0.00 r
+  U55/ZN (INV_X1)                          3.77       3.77 f
+  U56/ZN (NOR2_X1)                         4.89       8.66 r
+  n1186/A (HA_X1_6)                        0.00       8.66 r
+  n1186/U1/Z (AND2_X1)                     6.46      15.12 r
+  n1186/CO (HA_X1_6)                       0.00      15.12 r
+  O[2] (out)                               0.00      15.12 r
+  data arrival time                                  15.12
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                 -15.12
+  -----------------------------------------------------------
+  slack (MET)                                      2484.89
+
+
+  Startpoint: B[6] (input port)
+  Endpoint: O[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[6] (in)                                0.00       0.00 f
+  U46/ZN (NOR3_X1)                         5.62       5.62 r
+  U88/ZN (AOI22_X1)                        2.61       8.23 f
+  O[6] (out)                               0.00       8.23 f
+  data arrival time                                   8.23
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                  -8.23
+  -----------------------------------------------------------
+  slack (MET)                                      2491.77
+
+
+  Startpoint: B[6] (input port)
+  Endpoint: O[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  B[6] (in)                                0.00       0.00 f
+  U46/ZN (NOR3_X1)                         5.62       5.62 r
+  U88/ZN (AOI22_X1)                        2.61       8.23 f
+  O[5] (out)                               0.00       8.23 f
+  data arrival time                                   8.23
+
+  max_delay                             2500.00    2500.00
+  output external delay                    0.00    2500.00
+  data required time                               2500.00
+  -----------------------------------------------------------
+  data required time                               2500.00
+  data arrival time                                  -8.23
+  -----------------------------------------------------------
+  slack (MET)                                      2491.77
+
+
+1

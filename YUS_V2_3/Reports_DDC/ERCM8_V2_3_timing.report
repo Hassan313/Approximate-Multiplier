@@ -1,0 +1,367 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : ERCM8_V2_3
+Version: P-2019.03-SP1-1
+Date   : Sat Jan 25 14:09:40 2020
+****************************************
+
+Operating Conditions: PVT_0P8V_25C   Library: /home/users/kamal/ELCHassan/HassanLiberate/LIBRARY/nanGate_ccs_15_LS
+Wire Load Model Mode: top
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[15] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U39/ZN (AOI21_X2)                        0.03       0.23 f
+  U77/ZN (INV_X8)                          0.01       0.24 r
+  U24/ZN (AOI21_X2)                        0.02       0.26 f
+  U23/ZN (OAI21_X2)                        0.03       0.29 r
+  U16/ZN (AOI21_X2)                        0.03       0.32 f
+  U75/ZN (INV_X8)                          0.01       0.33 r
+  U15/ZN (AOI21_X2)                        0.03       0.35 f
+  U14/ZN (NOR3_X2)                         0.02       0.38 r
+  dat_o[15] (out)                          0.00       0.38 r
+  data arrival time                                   0.38
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.38
+  -----------------------------------------------------------
+  slack (MET)                                         2.12
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U39/ZN (AOI21_X2)                        0.03       0.23 f
+  U77/ZN (INV_X8)                          0.01       0.24 r
+  U24/ZN (AOI21_X2)                        0.02       0.26 f
+  U23/ZN (OAI21_X2)                        0.03       0.29 r
+  U16/ZN (AOI21_X2)                        0.03       0.32 f
+  U75/ZN (INV_X8)                          0.01       0.33 r
+  U15/ZN (AOI21_X2)                        0.03       0.35 f
+  U104/ZN (XNOR2_X1)                       0.02       0.37 f
+  dat_o[14] (out)                          0.00       0.37 f
+  data arrival time                                   0.37
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.37
+  -----------------------------------------------------------
+  slack (MET)                                         2.13
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[13] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U39/ZN (AOI21_X2)                        0.03       0.23 f
+  U77/ZN (INV_X8)                          0.01       0.24 r
+  U24/ZN (AOI21_X2)                        0.02       0.26 f
+  U23/ZN (OAI21_X2)                        0.03       0.29 r
+  U16/ZN (AOI21_X2)                        0.03       0.32 f
+  U75/ZN (INV_X8)                          0.01       0.33 r
+  U106/Z (XOR2_X1)                         0.03       0.36 f
+  dat_o[13] (out)                          0.00       0.36 f
+  data arrival time                                   0.36
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.36
+  -----------------------------------------------------------
+  slack (MET)                                         2.14
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[12] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U39/ZN (AOI21_X2)                        0.03       0.23 f
+  U77/ZN (INV_X8)                          0.01       0.24 r
+  U24/ZN (AOI21_X2)                        0.02       0.26 f
+  U23/ZN (OAI21_X2)                        0.03       0.29 r
+  U109/Z (XOR2_X1)                         0.03       0.32 f
+  dat_o[12] (out)                          0.00       0.32 f
+  data arrival time                                   0.32
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.32
+  -----------------------------------------------------------
+  slack (MET)                                         2.18
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[11] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U39/ZN (AOI21_X2)                        0.03       0.23 f
+  U77/ZN (INV_X8)                          0.01       0.24 r
+  U24/ZN (AOI21_X2)                        0.02       0.26 f
+  U111/Z (XOR2_X1)                         0.03       0.29 r
+  dat_o[11] (out)                          0.00       0.29 r
+  data arrival time                                   0.29
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.29
+  -----------------------------------------------------------
+  slack (MET)                                         2.21
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[10] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U39/ZN (AOI21_X2)                        0.03       0.23 f
+  U77/ZN (INV_X8)                          0.01       0.24 r
+  U114/Z (XOR2_X1)                         0.03       0.27 f
+  dat_o[10] (out)                          0.00       0.27 f
+  data arrival time                                   0.27
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.27
+  -----------------------------------------------------------
+  slack (MET)                                         2.23
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U46/ZN (OAI21_X2)                        0.02       0.20 r
+  U99/Z (XOR2_X1)                          0.03       0.23 f
+  dat_o[9] (out)                           0.00       0.23 f
+  data arrival time                                   0.23
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.23
+  -----------------------------------------------------------
+  slack (MET)                                         2.27
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U55/ZN (OAI22_X2)                        0.03       0.04 f
+  U54/ZN (AOI21_X2)                        0.03       0.06 r
+  U53/ZN (OAI21_X2)                        0.02       0.09 f
+  U49/ZN (AOI21_X2)                        0.03       0.12 r
+  U78/ZN (INV_X8)                          0.01       0.13 f
+  U48/ZN (NOR4_X2)                         0.03       0.15 r
+  U47/ZN (OAI21_X2)                        0.02       0.17 f
+  U100/Z (XOR2_X1)                         0.03       0.20 r
+  dat_o[8] (out)                           0.00       0.20 r
+  data arrival time                                   0.20
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.20
+  -----------------------------------------------------------
+  slack (MET)                                         2.30
+
+
+  Startpoint: dat_in_a[7]
+              (input port)
+  Endpoint: dat_o[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_a[7] (in)                         0.00       0.00 f
+  U81/ZN (INV_X8)                          0.01       0.01 r
+  U61/ZN (OAI22_X2)                        0.03       0.04 f
+  U60/ZN (AOI21_X2)                        0.03       0.06 r
+  U58/ZN (NOR3_X2)                         0.02       0.08 f
+  U128/Z (OR4_X1)                          0.02       0.11 f
+  U57/ZN (NOR4_X2)                         0.03       0.13 r
+  U56/ZN (OAI21_X2)                        0.03       0.16 f
+  U76/ZN (INV_X8)                          0.01       0.17 r
+  dat_o[7] (out)                           0.00       0.17 r
+  data arrival time                                   0.17
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.17
+  -----------------------------------------------------------
+  slack (MET)                                         2.33
+
+
+  Startpoint: dat_in_b[1]
+              (input port)
+  Endpoint: dat_o[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  dat_in_b[1] (in)                         0.00       0.00 f
+  U6/ZN (AOI22_X2)                         0.03       0.03 r
+  U5/ZN (OAI21_X2)                         0.02       0.05 f
+  U4/ZN (AOI21_X2)                         0.02       0.07 r
+  U103/Z (XOR2_X1)                         0.03       0.10 f
+  U101/Z (AND4_X1)                         0.02       0.12 f
+  dat_o[4] (out)                           0.00       0.12 f
+  data arrival time                                   0.12
+
+  max_delay                                2.50       2.50
+  output external delay                    0.00       2.50
+  data required time                                  2.50
+  -----------------------------------------------------------
+  data required time                                  2.50
+  data arrival time                                  -0.12
+  -----------------------------------------------------------
+  slack (MET)                                         2.38
+
+
+1

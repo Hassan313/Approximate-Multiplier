@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : dadda_8b
+Version: P-2019.03-SP1-1
+Date   : Fri Jan 31 18:45:54 2020
+****************************************
+
+Library(s) Used:
+
+    NanGate_15nm_OCL (File: /home/home2/students/afzalikusha/NangateLibrary15nm/15nmFinFET.db)
+
+Number of ports:                          395
+Number of nets:                           575
+Number of cells:                          239
+Number of combinational cells:            150
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         14
+Number of references:                      94
+
+Combinational area:                 88.915970
+Buf/Inv area:                        2.359296
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                    88.915970
+Total area:                 undefined
+1
